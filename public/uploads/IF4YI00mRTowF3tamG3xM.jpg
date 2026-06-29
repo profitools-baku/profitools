@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="alternate" hreflang="x-default" href="https://www.proxxon.com/">
+        <link rel="alternate" hreflang="de" href="https://www.proxxon.com/de/">
+        <link rel="alternate" hreflang="en" href="https://www.proxxon.com/en/">
+        <link rel="alternate" hreflang="fr" href="https://www.proxxon.com/fr/">
+        <link rel="alternate" hreflang="en-US" href="https://www.proxxon.com/us/">
+        <link rel="alternate" hreflang="en-CA" href="https://www.proxxon.com/us/">
+        <link rel="alternate" hreflang="en-MX" href="https://www.proxxon.com/us/"> 
+                
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>PROXXON - The fine tool company</title>
+        <meta name="copyright" content="2002-2026, PROXXON Inc.">
+        <meta name="publisher" content="PROXXON Inc.">
+        <meta name="author" content="Karsten Gajetzky Webdesign, D-31606 Warmsen, Germany">
+		
+        <meta name="keywords" content="Proxxon,Micromot,Minimot,precision,professional,Rotary Tool,Rotary Tools,Longneck Angle Grinder,Delta Sander,Belt Sander,Sander,Jig Saw,Saw,Micro Router,Router,Power Carver,Carver,Model Building,Hot Wire Cutter,Cutter,Pensander,Drill Grinder,Grinder,Engraver,engraving,Screwdriver,AC Adapter,Woodturning Lathe,Bench Drill Press,Mill,Scroll Saw,Shaper,Planer,Chop and Miter Saw,Table Saw,Bench Circular Saw,Bandsaw,Disc Sander,Lathe and Milling System,Lathe,milling,Burner,Drill Stand,Compound Table,Machine Vice,Vice,Flexishaft,Footswitch,Extension Cord,Tool Clamp,Steel Collets,Collets,Chuck,Drills,Milling Bits,milling,Cutting Discs,cutting,grinding,sanding,Brass,Brushes,polishing,Diamond Coated">
+        <meta name="description" content="High quality power tools for model builders, precision mechanics, mould makers, tool makers, opticians, goldsmiths and many more.">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/fa/css/all.css">
+		<link rel="stylesheet" href="css/mlmenu/dist/styles/jquery-simple-mobilemenu.css">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.proxxon.com/de/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://www.proxxon.com/de/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://www.proxxon.com/de/favicon-16x16.png">
+		<link rel="manifest" href="https://www.proxxon.com/de/manifest.json">
+		<link rel="mask-icon" href="https://www.proxxon.com/de/safari-pinned-tab.svg" color="#f0f0f0">
+		<meta name="theme-color" content="#ffffff">
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src='js/jquery-1.12.4.min.js' type='text/javascript'></script>	
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("a").hover(function(){
+                var title = $(this).attr("title");
+                $(this).attr("tmp_title", title);
+                $(this).attr("title","");
+            },
+            function() { 
+                var title = $(this).attr("tmp_title");
+                $(this).attr("title", title);
+            });
+            $("a").click(function(){
+                var title = $(this).attr("tmp_title");
+                $(this).attr("title", title);
+            });
+        });
+        </script>
+        
+        <script>
+        function resetSearch() {
+            document.proxxonsearchform.searchterm.value = "";
+        }
+		function noFocus() {
+			document.activeElement.blur();
+		}		
+        </script>
+		
+		<style>
+		.flex-container {
+			margin-top: 0px;
+			margin-bottom: 10px;
+			display:flex;
+			flex-wrap: wrap;
+		}
+		.flex-item:nth-child(1) { flex: 1;}
+		.flex-item:nth-child(2) { flex: 1;}
+		.flex-item img {
+			object-fit: contain;
+			width:100%;
+			height:100%
+		}
+		@media only screen and (max-width: 479px) {
+			.flex-container { flex-direction: column; }
+		}
+        </style>
+		
+    </head>
+    <body onpageshow="noFocus()">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+	<div id="fwrapper">
+    
+    	<div id="content">
+        
+        <div class="header-container">
+        
+            <header class="wrapper clearfix">
+            
+            	<div class="logo">
+                	<img src="images/logo.gif" alt="PROXXON Logo">
+                </div>
+                
+                <div class="slogan">
+                	<img src="images/slogan.gif" alt="The fine tool company">
+                </div>
+                
+                <div class="limg">
+                	<img src="images/foehren.jpg" alt="Sales headquarters Germany">
+                </div>
+                
+                <div style="clear:both;"></div>
+
+                <div class="navsearch">
+                
+					<nav id='mobile-nav'>
+<ul class='mobile_menu' >
+<li><a href='micromot/the-proxxon-micromot-system.php' title='MICROMOT POWER TOOLS' class='first'>MICROMOT <br>POWER TOOLS<br></a>
+<ul class='submenu'>
+<li><a href='micromot/hand-held-power-tools-115-v.php' title='Hand-held power tools 115V'>Hand-held power tools 115 V</a></li>
+<li><a href='micromot/hand-held-power-tools-cordless.php' title='Cordless hand-held power tools'>Cordless hand-held power tools</a></li>
+<li><a href='micromot/hand-held-power-tools-12-v-and-ac-adapters.php' title='Hand-held power tools 12 V'>Hand-held power tools 12 V and AC adapters</a></li>
+<li><a href='micromot/system-attachments-for-hand-held-power-tools.php' title='System attachments for hand-held power tools'>System attachments for hand-held power tools</a></li>
+<li><a href='micromot/accessories-for-rotary-tools.php' title='Accessories for rotary tools in dental and industrial quality'>Accessories for rotary tools</a></li>
+<li><a href='micromot/bench-top-units-and-related-accessories.php' title='Bench top units and related accessories'>Bench top units and related accessories</a></li>
+<li><a href='micromot/lathe-and-milling-systems.php' title='Lathe and milling systems'>Lathe and milling systems</a></li>
+<li><a href='micromot/other-useful-tools-and-devices.php' title='Other useful tools and devices'>Other useful tools and devices</a></li>
+</ul>
+</li>
+<li><a href='industrial/industrial-hand-tools.php' title='INDUSTRIAL HAND TOOLS' class='first'>INDUSTRIAL <br>HAND TOOLS<br></a>
+</li>
+<li><a href='new/new-proxxon-tools.php' title='NEW ITEMS'>NEW <br>ITEMS<br></a>
+<ul class='submenu'>
+<li><a href='new/new-micromot-tools.php' title='MICROMOT Tools'>MICROMOT Tools</a></li>
+<li><a href='new/new-industrial-hand-tools.php' title='INDUSTRIAL Hand tools'>INDUSTRIAL Hand tools</a></li>
+</ul>
+</li>
+<li><a href='#3' title='CUSTOMER SERVICE'>CUSTOMER <br>SERVICE<br></a>
+<ul class='submenu'>
+<li><a href='service/catalogs-online.php' title='Catalogs online'>Catalogs online</a></li>
+<li><a href='service/catalog-request.php' title='Catalog request'>Catalog request</a></li>
+<li><a href='service/retailers-us.php' title='Retailers US'>Retailers US</a></li>
+<li><a href='service/retailers-ca.php' title='Retailers Canada'>Retailers Canada</a></li>
+<li><a href='service/distribution-worldwide.php' title='Distribution worldwide'>Distribution worldwide</a></li>
+<li><a href='service/service-center.php' title='Service center'>Service center</a></li>
+<li><a href='service/contact-us.php' title='Contact us'>Contact us</a></li>
+<li><a href='service/sitemap.php' title='Sitemap'>Sitemap</a></li>
+</ul>
+</li>
+<li><a href='#4' title='ABOUT PROXXON'>ABOUT <br>PROXXON<br></a>
+<ul class='submenu'>
+<li><a href='about/company-profile.php' title='Company profile'>Company profile</a></li>
+ <li><a href='about/product-merchandising.php' title='Product merchandising'>Product merchandising</a></li>
+</ul>
+</li>
+<li><a href='https://proxxon-us-shop.com/' title='OFFICIAL ONLINE STORE' class='last store' target='_blank'>OFFICIAL <br>ONLINE STORE<br></a>
+</li>
+<div class='search-container'>
+<form action='search.php' method='post'>
+<input type='text' placeholder='Search ...' name='searchterm'>
+<button type='submit'><i class='fa fa-search'></i></button>
+</form>
+</div>
+</ul>
+</nav>
+<nav id='nav'>
+<ul id='navigation' >
+<li><a href='micromot/the-proxxon-micromot-system.php' title='MICROMOT POWER TOOLS' class='first'>MICROMOT <br>POWER TOOLS<br></a>
+<ul class='submenu'>
+<li><a href='micromot/hand-held-power-tools-115-v.php' title='Hand-held power tools 115V'>Hand-held power tools 115 V</a></li>
+<li><a href='micromot/hand-held-power-tools-cordless.php' title='Cordless hand-held power tools'>Cordless hand-held power tools</a></li>
+<li><a href='micromot/hand-held-power-tools-12-v-and-ac-adapters.php' title='Hand-held power tools 12 V'>Hand-held power tools 12 V and AC adapters</a></li>
+<li><a href='micromot/system-attachments-for-hand-held-power-tools.php' title='System attachments for hand-held power tools'>System attachments for hand-held power tools</a></li>
+<li><a href='micromot/accessories-for-rotary-tools.php' title='Accessories for rotary tools in dental and industrial quality'>Accessories for rotary tools</a></li>
+<li><a href='micromot/bench-top-units-and-related-accessories.php' title='Bench top units and related accessories'>Bench top units and related accessories</a></li>
+<li><a href='micromot/lathe-and-milling-systems.php' title='Lathe and milling systems'>Lathe and milling systems</a></li>
+<li><a href='micromot/other-useful-tools-and-devices.php' title='Other useful tools and devices'>Other useful tools and devices</a></li>
+</ul>
+</li>
+<li><a href='industrial/industrial-hand-tools.php' title='INDUSTRIAL HAND TOOLS' class='first'>INDUSTRIAL <br>HAND TOOLS<br></a>
+</li>
+<li><a href='new/new-proxxon-tools.php' title='NEW ITEMS'>NEW <br>ITEMS<br></a>
+<ul class='submenu'>
+<li><a href='new/new-micromot-tools.php' title='MICROMOT Tools'>MICROMOT Tools</a></li>
+<li><a href='new/new-industrial-hand-tools.php' title='INDUSTRIAL Hand tools'>INDUSTRIAL Hand tools</a></li>
+</ul>
+</li>
+<li><a href='#3' title='CUSTOMER SERVICE'>CUSTOMER <br>SERVICE<br></a>
+<ul class='submenu'>
+<li><a href='service/catalogs-online.php' title='Catalogs online'>Catalogs online</a></li>
+<li><a href='service/catalog-request.php' title='Catalog request'>Catalog request</a></li>
+<li><a href='service/retailers-us.php' title='Retailers US'>Retailers US</a></li>
+<li><a href='service/retailers-ca.php' title='Retailers Canada'>Retailers Canada</a></li>
+<li><a href='service/distribution-worldwide.php' title='Distribution worldwide'>Distribution worldwide</a></li>
+<li><a href='service/service-center.php' title='Service center'>Service center</a></li>
+<li><a href='service/contact-us.php' title='Contact us'>Contact us</a></li>
+<li><a href='service/sitemap.php' title='Sitemap'>Sitemap</a></li>
+</ul>
+</li>
+<li><a href='#4' title='ABOUT PROXXON'>ABOUT <br>PROXXON<br></a>
+<ul class='submenu'>
+<li><a href='about/company-profile.php' title='Company profile'>Company profile</a></li>
+ <li><a href='about/product-merchandising.php' title='Product merchandising'>Product merchandising</a></li>
+</ul>
+</li>
+<li><a href='https://proxxon-us-shop.com/' title='OFFICIAL ONLINE STORE' class='last store' target='_blank'>OFFICIAL <br>ONLINE STORE<br></a>
+</li>
+<div class='search-container'>
+<form action='search.php' method='post'>
+<input type='text' placeholder='Search ...' name='searchterm'>
+<button type='submit'><i class='fa fa-search'></i></button>
+</form>
+</div>
+</ul>
+</nav>
+               
+
+                </div>
+                
+            </header>
+            
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+            
+                <nav id="langNav">
+                	&nbsp;
+                </nav>
+
+				<div class="flex-container" id="gallery">
+					<div class="flex-item g2">
+						<a href="micromot/the-proxxon-micromot-system.php">
+						<img alt="" src="images/produkte/thumbs/proxxon-micromot-system-1.jpg">
+						<div class="overlay"></div>
+						</a>
+					</div>
+					<div class="flex-item g2">
+						<a href="industrial/industrial-hand-tools.php">
+						<img alt="" src="images/produkte/thumbs/proxxon-industrial-system-1.jpg">
+						<div class="overlay"></div>
+						</a>
+					</div>
+				</div>
+
+
+            </div> <!-- #main -->
+			
+        </div> <!-- #main-container -->
+        
+        </div> <!-- #content -->
+        
+        <div class="footer-container">
+            <footer class="wrapper">
+                	<div class="left"></div>
+                    <div class="right">Copyright © 2026 by PROXXON Inc. All rights reserved.</div>
+            </footer>
+        </div>
+	</div>         
+        
+		<script>
+			(function($){
+				var nav = $("#topNav");
+				nav.find("li").each(function() {
+					if ($(this).find("ul").length > 0) {
+						$(this).mouseenter(function() {
+							$(this).find("ul").show();
+						});
+						$(this).mouseleave(function() {
+							$(this).find("ul").stop(true, true).slideUp(100);
+						});
+					}
+				});
+			})(jQuery);
+		</script>
+		
+        <script src="css/mlmenu/dist/jquery-simple-mobilemenu.js"></script>
+        <script type="text/javascript">
+			jQuery(document).ready(function(){
+				$(".mobile_menu").slideMobileMenu({
+				});
+			});
+		</script> 
+		
+    </body>
+</html>

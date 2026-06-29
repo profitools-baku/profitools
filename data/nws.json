@@ -1,0 +1,425 @@
+[
+  {
+    "nameRu": "Бокорезы для электроники NWS",
+    "article": "2201-128",
+    "price": "60.49",
+    "images": [
+      "https://www.profitools.by/upload/iblock/744/shc643w3ig93jdatc6o3mmqrrvv13cua.jpg",
+      "https://www.profitools.by/upload/iblock/c56/jgqjhj1rml7dvu4ni088f0xelgbj4g27.jpg"
+    ],
+    "description": "Бокорезы для электроники серии ProfileLine от немецкой компании NWS изготовлены методом точной штамповки из прецизионной углеродистой стали (C70), имеют прекражную геометрию лезвий и закалены без перекосов до 54–56° HRC. Полированные режущие кромки и неотражающие фосфатированные поверхности гарантируют безопасную работу с хорошей видимостью.",
+    "specs": {
+      "Длина": "128 мм",
+      "Форма резки": "Без скоса",
+      "Тип шарнира": "наложенный",
+      "Твердость режущей кромки": "54 - 56 HRC"
+    }
+  },
+  {
+    "nameRu": "Клещи для снятия изоляции многофункциональные MultiCutter VDE NWS",
+    "article": "1451-49-VDE-180",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/bf0/bf002dc2c8b2e7055f38668c88eb8b40.jpg",
+      "https://www.profitools.by/upload/iblock/439/43930881f5df4d8fb26b0a1536f9ce60.jpg"
+    ],
+    "description": "Многофункциональные клещи для снятия изоляции в диэлектрическом (VDE) исполнении. Для рукояток использован нескользящий материал SoftGripp. Клещи выполнены из инструментальной стали методом штампованной поковки и закалены в масле.",
+    "specs": {
+      "Длина": "180 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Клещи для снятия изоляции многофункциональные MultiCutter VDE NWS",
+    "article": "1451-43-180",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/2e3/2e3bc551e87c467899e2a59b62fa8e07.jpg"
+    ],
+    "description": "Диэлектрические клещи для снятия изоляции NWS с многослойной изоляцией обеспечивают максимальную защиту при работах с деталями под напряжением. Клещи имеют матовое хромирование, не дающее бликов.",
+    "specs": {
+      "Длина": "180 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Клещи для снятия изоляции многофункциональные MultiCutter NWS",
+    "article": "1451-69-180",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/061/0613ae86675d339d0f0766ff5921da57.jpg",
+      "https://www.profitools.by/upload/iblock/fe1/fe1c7047aab4b38dac17dcd0a5351e47.jpg"
+    ],
+    "description": "Многофункциональные клещи для снятия изоляции в титановом исполнении оснащены эргономичной трехкомпонентной рукояткой. Лезвия имеют индуктивную закалку.",
+    "specs": {
+      "Длина": "180 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Клещи для снятия изоляции VDE NWS",
+    "article": "145-43-160",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/4d1/4d12b3fc8863f0bb7f49dbb083071e92.jpg"
+    ],
+    "description": "Диэлектрические клещи для снятия изоляции NWS с многослойной изоляцией. Клещи выполнены из специальной инструментальной стали и закалены в масле.",
+    "specs": {
+      "Длина": "160 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Клещи для снятия изоляции VDE NWS",
+    "article": "145-49-VDE-160",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/f15/f15b3dc66f475b468b5953c94777e4c3.jpg",
+      "https://www.profitools.by/upload/iblock/f0e/f0eb3b80e27760d92462723e2b679073.jpg"
+    ],
+    "description": "Клещи для снятия изоляции в диэлектрическом исполнении. Рукоятки SoftGripp эргономичной формы. Закалены в масле, индуктивная закалка лезвий.",
+    "specs": {
+      "Длина": "160 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Клещи для снятия изоляции NWS",
+    "article": "145-69-160",
+    "price": "89.84",
+    "images": [
+      "https://www.profitools.by/upload/iblock/7f0/7f093b262655de127f0cc78241754cbf.jpg",
+      "https://www.profitools.by/upload/iblock/ef0/ef05b405b479af9e8778fe7d9dd02cb4.jpg"
+    ],
+    "description": "Клещи для снятия изоляции в титановом исполнении с трехкомпонентной рукояткой. Специальная инструментальная сталь, закалка в масле.",
+    "specs": {
+      "Длина": "160 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Клещи для снятия изоляции NWS",
+    "article": "145-62-160",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/d20/d20712b533c0c11b91ca7cf109874c87.jpg"
+    ],
+    "description": "Клещи для снятия изоляции в классическом дизайне. Ручки с пластиковым покрытием. Отшлифованы с высокой точностью.",
+    "specs": {
+      "Длина": "160 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов NWS",
+    "article": "2005-16",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/934/934132cf118fdd70c27fe8941d2bdc92.jpg",
+      "https://www.profitools.by/upload/iblock/fa7/fa761d691bff6bc7e8f48b7f8651eb96.jpg"
+    ],
+    "description": "Универсальный ключ для распределительных шкафов. Применяется в электротехнике, отоплении, водоснабжении.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов JointKey Quadro NWS",
+    "article": "2005-15",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/ae5/ae555ec5034062993adbd84192fcd7be.jpg",
+      "https://www.profitools.by/upload/iblock/82e/82ecd10d9c9eb9d6210cc582e837d925.jpg"
+    ],
+    "description": "Универсальный ключ JointKey Quadro для распределительных шкафов от немецкой компании NWS.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов DoubleKey Box NWS",
+    "article": "2005-14",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/a94/a94ec0488a4d39ba5a2ce4d236492dfe.jpg",
+      "https://www.profitools.by/upload/iblock/d51/d51557643b4c8c73038d41233a5fd513.jpg"
+    ],
+    "description": "Универсальный ключ DoubleKey Box для распределительных шкафов, электрощитов и заградительных систем.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов SubMaker Quadro NWS",
+    "article": "2005-13",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/f8b/f8b3b5d7a50c833d966ba18068520c61.jpg",
+      "https://www.profitools.by/upload/iblock/c2e/c2e094d89ea913045ebe99c1cc8df499.jpg"
+    ],
+    "description": "Универсальный ключ SubMaker Quadro для распределительных шкафов от компании NWS.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов c индикатором напряжения SubMaVo NWS",
+    "article": "2005-12",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/271/2717738d16fc605869b8198f65ede20b.jpg",
+      "https://www.profitools.by/upload/iblock/63c/63c71ccca7ed0d2157983671fe4452ae.jpg"
+    ],
+    "description": "Универсальный ключ со встроенным индикатором напряжения и магнитного поля.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов MasterKey NWS",
+    "article": "2005-11",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/18d/18d862680bd1c21b8eceb3f5e9eb6b66.jpg"
+    ],
+    "description": "Универсальный ключ MasterKey со встроенной открывалкой для бутылок.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов MasterKey NWS",
+    "article": "2005-10",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/b23/b2393d6ffce2ef5da6a08ab11bbb0656.jpg",
+      "https://www.profitools.by/upload/iblock/fce/fceb3e749826acfb19ea90f07b04f37f.jpg"
+    ],
+    "description": "Универсальный ключ MasterKey для работы с электрощитами и системами вентиляции.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов с фонариком SubLight NWS",
+    "article": "2005-8",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/0fa/0fa4a7863fe30bff76bf72957d3843fc.jpg"
+    ],
+    "description": "Универсальный ключ SubLight со встроенным светодиодным фонариком.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов с фонариком SubLight NWS",
+    "article": "2005-7",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/d47/d47d289f298f8be0ef72033445074545.jpg",
+      "https://www.profitools.by/upload/iblock/b65/b65d3c18e15c1f5ee4a4abd16e4a07b9.jpg"
+    ],
+    "description": "Универсальный ключ SubLight с мощным фонариком для работы в темных местах.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов SubMaster NWS",
+    "article": "2005-6",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/9de/9de7ed5a53ce9ab5459e96aa22661eef.jpg"
+    ],
+    "description": "Универсальный ключ SubMaster от компании NWS для промышленного применения.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов Subkey NWS",
+    "article": "2005-5",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/4de/4de5c8d4238fdbb7b86ee66ddf5ca0a6.jpg",
+      "https://www.profitools.by/upload/iblock/18a/18a4680443c055c2b42ca3a711e6ab34.jpg"
+    ],
+    "description": "Компактный универсальный ключ Subkey для основных типов замков в шкафах.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов Subkey NWS",
+    "article": "2005-4",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/ef1/ef1237681a8cc94e025e3a9ab07e2191.jpg",
+      "https://www.profitools.by/upload/iblock/37b/37b7557d6366a223489bdba43c356e88.jpg"
+    ],
+    "description": "Ключ Subkey для распределительных щитов, систем питания и вентиляции.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов MINI NWS",
+    "article": "2005-3",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/27c/27c1012f3cd380c10cfdb233f42d0829.jpg",
+      "https://www.profitools.by/upload/iblock/f2e/f2e8a968ff4352e0d45e5a72be2e73ca.jpg"
+    ],
+    "description": "Малогабаритный универсальный ключ MINI для распределительных шкафов.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов NWS",
+    "article": "2005-2",
+    "price": "71.03",
+    "images": [
+      "https://www.profitools.by/upload/iblock/ddd/dddecc0736444df0334d2a3842751a81.jpg",
+      "https://www.profitools.by/upload/iblock/7f3/7f382e6520ff5f95b8ceb2e9373ce4ee.jpg"
+    ],
+    "description": "Универсальный ключ NWS для стандартных шкафов управления.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Ключ для распределительных шкафов NWS",
+    "article": "2005-1",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/fc1/fc1d8416adb5fa5fa2df191e60dab707.jpg"
+    ],
+    "description": "Базовая модель универсального ключа для технических шкафов.",
+    "specs": {
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Монтировка NWS",
+    "article": "945-300",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/85c/85c9cf503136f043fd5944d742cd484c.jpg"
+    ],
+    "description": "Монтировка из инструментальной стали для монтажа и демонтажа шин. Закаленные рабочие концы.",
+    "specs": {
+      "Длина": "300 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Труборез 3-35 мм NWS",
+    "article": "1335-35K",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/668/66839f9c50c0a34ae3b7ba20bd690f16.jpg"
+    ],
+    "description": "Труборез для резки пластмассовых, медных и алюминиевых труб без заусенцев.",
+    "specs": {
+      "Диаметр трубы": "3 - 35 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Труборез 10-60 мм NWS",
+    "article": "1335-66",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/8f3/8f36dfd195cb5c75ba6c374ea12f4443.jpg"
+    ],
+    "description": "Профессиональный труборез для труб большого диаметра до 60 мм.",
+    "specs": {
+      "Диаметр трубы": "10 - 60 мм",
+      "Длина": "400 мм",
+      "Бренд": "NWS"
+    }
+  },
+  {
+    "nameRu": "Труборез 3-35 мм NWS",
+    "article": "1335-35",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/8f3/8f36dfd195cb5c75ba6c374ea12f4443.jpg"
+    ],
+    "description": "Труборез для точной резки тонкостенных труб.",
+    "specs": {
+      "Диаметр трубы": "3 - 35 мм",
+      "Длина": "155 мм",
+      "Бренд": "NWS"
+    }
+  },
+  {
+    "nameRu": "Труборез 3-25 мм NWS",
+    "article": "1335-25",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/6cc/6ccc573767dc468e5ae2e74f02a4743a.jpg"
+    ],
+    "description": "Компактный труборез для работы в ограниченном пространстве.",
+    "specs": {
+      "Диаметр трубы": "3 - 25 мм",
+      "Длина": "65 мм",
+      "Бренд": "NWS"
+    }
+  },
+  {
+    "nameRu": "Гвоздодер NWS",
+    "article": "940-500",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/120/1203e04f6eeac56563aac921c660b1c4.jpg"
+    ],
+    "description": "Кованый гвоздодер из восьмигранной заготовки специальной стали.",
+    "specs": {
+      "Длина": "500 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  },
+  {
+    "nameRu": "Бокорезы NWS",
+    "article": "134-69-160",
+    "price": "100.54",
+    "images": [
+      "https://www.profitools.by/upload/iblock/60b/60b09705168e20f0396c892427f678b3.jpg",
+      "https://www.profitools.by/upload/iblock/e7d/e7dfd468d6883a6f9ef1bd76ea20544d.jpg"
+    ],
+    "description": "Бокорезы в титановом исполнении с индуктивной закалкой режущих кромок.",
+    "specs": {
+      "Длина": "160 мм",
+      "Бренд": "NWS",
+      "Страна бренда": "Германия"
+    }
+  }
+]

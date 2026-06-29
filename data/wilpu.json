@@ -1,0 +1,325 @@
+[
+  {
+    "nameRu": "Биметаллическая коронка Cobalt 8% WILPU",
+    "article": "3011400001",
+    "price": "24.60",
+    "images": [
+      "https://www.profitools.by/upload/iblock/c34/c34346e969d5194916a9a3b2b4618e7d.jpg"
+    ],
+    "description": "Биметаллическая коронка WILPU с 8% содержанием кобальта (Co8) для профессионального использования. Предназначена для сверления стали, нержавеющей стали, алюминия, пластика и дерева.",
+    "specs": {
+      "Бренд": "WILPU",
+      "Страна бренда": "Германия",
+      "Диаметр": "14 мм"
+    }
+  },
+  {
+    "nameRu": "Набор биметаллических коронок WILPU EKE HSS-Cobalt 8%",
+    "article": "3051000101",
+    "price": "406.60",
+    "images": [
+      "https://www.profitools.by/upload/resize_cache/iblock/238/1200_1200_140cd750bba9870f18aada2478b24840a/qevzszlaqb1r1uax0k9ejqwo03g553oj.png"
+    ],
+    "description": "Профессиональный набор биметаллических коронок EKE от WILPU. Включает коронки (22, 35, 51, 57, 68, 76 мм), адаптеры и кейс.",
+    "specs": {
+      "Бренд": "WILPU",
+      "Количество предметов": "9"
+    }
+  },
+  {
+    "nameRu": "Биметаллическая коронка Cobalt 8% WILPU (мелкий зуб)",
+    "article": "3021400001",
+    "price": "24.60",
+    "images": [
+      "https://www.profitools.by/upload/iblock/4ef/4ef54f59e663a763806e257125367623.jpg"
+    ],
+    "description": "Коронка с мелким шагом зубьев для резки тонкостенных материалов, таких как листовой металл и трубы из нержавеющей стали.",
+    "specs": {
+      "Диаметр": "14 мм",
+      "Тип зуба": "Мелкий"
+    }
+  },
+  {
+    "nameRu": "Набор пилок для лобзика 5 пр. WILPU Sortiment 2000",
+    "article": "0286000005",
+    "price": "13.69",
+    "images": [
+      "https://www.profitools.by/upload/iblock/6ab/6ab45f9da9cb835efa71f8772e970147.jpg"
+    ],
+    "description": "Универсальный набор пилок: 3 для дерева и 2 для металла.",
+    "specs": {
+      "Количество": "5 шт."
+    }
+  },
+  {
+    "nameRu": "Удлинитель 300 мм WILPU ZEV 9.5, шестигранный хвостовик 9.5 мм",
+    "article": "3032100001",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/d22/d22080a273a55856711a70085a690d56.jpg"
+    ],
+    "description": "Удлинитель для адаптеров коронок WILPU длиной 300 мм.",
+    "specs": {
+      "Длина": "300 мм",
+      "Хвостовик": "9.5 мм"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 32-250 мм WILPU ZE4A, шестигранный хвостовик 9.5 мм",
+    "article": "3030800001",
+    "price": "56.28",
+    "images": [
+      "https://www.profitools.by/upload/iblock/550/55013f81b1a29dd733fa9bf93d2619f5.jpg"
+    ],
+    "description": "Адаптер для коронок диаметром 32-250 мм. Хвостовик 9.5 мм HEX.",
+    "specs": {
+      "Хвостовик": "9.5 мм",
+      "Диапазон": "32-250 мм"
+    }
+  },
+  {
+    "nameRu": "Пилки для лобзика MG 71 bi, 3 шт./упак. WILPU",
+    "article": "258600003",
+    "price": "46.96",
+    "images": [
+      "https://www.profitools.by/upload/iblock/1a7/ldl55y0ikss19v02g9w2b8pkcs0edew2.png"
+    ],
+    "description": "Гибкое биметаллическое полотно для сэндвич-панелей до 160 мм.",
+    "specs": {
+      "Количество": "3 шт.",
+      "Материал": "Bi-metal"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 32-250 мм WILPU ZE7, хвостовик SDS-plus",
+    "article": "3030600001",
+    "price": "80.40",
+    "images": [
+      "https://www.profitools.by/upload/iblock/3cb/3cbf463137a28893d56a31818d669382.jpg"
+    ],
+    "description": "Адаптер для коронок 32-250 мм с хвостовиком SDS-plus.",
+    "specs": {
+      "Хвостовик": "SDS-plus"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 32-152 мм WILPU ZE-2",
+    "article": "3030200001",
+    "price": "55.88",
+    "images": [
+      "https://www.profitools.by/upload/iblock/2ba/2ba9f3e4e9ef7ba580a671ef3b4e69d0.jpg"
+    ],
+    "description": "Адаптер ZE-2 для коронок от 32 мм. Хвостовик 11 мм HEX.",
+    "specs": {
+      "Хвостовик": "11 мм"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 14-30 мм WILPU ZE6, хвостовик SDS-plus",
+    "article": "3030500001",
+    "price": "49.62",
+    "images": [
+      "https://www.profitools.by/upload/iblock/34e/34ec1685df5d31f90e6ef3d57717f91f.jpg"
+    ],
+    "description": "Адаптер ZE6 для коронок малого диаметра (14-30 мм).",
+    "specs": {
+      "Хвостовик": "SDS-plus"
+    }
+  },
+  {
+    "nameRu": "Набор биметаллических коронок (для электрика) WILPU TKE",
+    "article": "3061000101",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/5c8/dj2eu54porls6p2sj3sc4sy1b9crjyhn.png"
+    ],
+    "description": "Набор из 9 предметов для электрика. Размеры 22 - 76 мм.",
+    "specs": {
+      "Глубина": "38 мм"
+    }
+  },
+  {
+    "nameRu": "Набор биметаллических коронок (универсальный) EKA 3 Wilpu",
+    "article": "3055000101",
+    "price": "510.65",
+    "images": [
+      "https://www.profitools.by/upload/resize_cache/iblock/c43/1200_1200_140cd750bba9870f18aada2478b24840a/n47zwyqg14nmtlr3pc74rabd2enjcit6.png"
+    ],
+    "description": "Универсальный набор из 13 предметов. Биметалл с кобальтом.",
+    "specs": {
+      "Предметов": "13"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 14-30 мм WILPU ZE-1",
+    "article": "3030100001",
+    "price": "24.81",
+    "images": [
+      "https://www.profitools.by/upload/iblock/54c/54c7d678fdfc979679803522f741160a.jpg"
+    ],
+    "description": "Адаптер ZE-1 для коронок 14-30 мм. Хвостовик 9.5 мм HEX.",
+    "specs": {
+      "Хвостовик": "9.5 мм"
+    }
+  },
+  {
+    "nameRu": "Пилки для лобзика по металлу MG11bi 5 шт.уп. WILPU",
+    "article": "0255100005",
+    "price": "19.80",
+    "images": [
+      "https://www.profitools.by/upload/iblock/d39/oos38xsyz1wgqn3n0msn1q5fsy87utg6.jpg"
+    ],
+    "description": "Биметаллические пилки по металлу (аналог T118AF).",
+    "specs": {
+      "Длина": "76.5 мм",
+      "Шаг зубьев": "1.2 мм"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 32-250 мм WILPU ZE8, шестигранный хвостовик 11 мм",
+    "article": "3030700001",
+    "price": "104.28",
+    "images": [
+      "https://www.profitools.by/upload/iblock/035/0356c9d74a2a16d51086a0149021721b.jpg"
+    ],
+    "description": "Профессиональный адаптер ZE8 с хвостовиком 11 мм HEX.",
+    "specs": {
+      "Хвостовик": "11 мм"
+    }
+  },
+  {
+    "nameRu": "Удлинитель 300 мм WILPU ZEV 11, шестигранный хвостовик 11 мм",
+    "article": "3032200001",
+    "price": "80.40",
+    "images": [
+      "https://www.profitools.by/upload/iblock/dbb/dbb3fbe652ea6374828f090740924719.jpg"
+    ],
+    "description": "Удлинитель длиной 300 мм для адаптеров с хвостовиком 11 мм.",
+    "specs": {
+      "Длина": "300 мм"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 32-250 мм WILPU ZE4, шестигранный хвостовик 11 мм",
+    "article": "3030400001",
+    "price": "57.84",
+    "images": [
+      "https://www.profitools.by/upload/iblock/f20/f203affe4f46c1de467d9969ca528e7d.jpg"
+    ],
+    "description": "Адаптер ZE4 для коронок 32-250 мм. Хвостовик 11 мм HEX.",
+    "specs": {
+      "Хвостовик": "11 мм"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 32-250 мм WILPU ZE5, шестигранный хвостовик 11 мм",
+    "article": "3031000001",
+    "price": "90.25",
+    "images": [
+      "https://www.profitools.by/upload/iblock/ca7/ca76288f61ce73b88b725208b0870c9a.jpg"
+    ],
+    "description": "Быстросменный адаптер ZE5 для коронок 32-250 мм.",
+    "specs": {
+      "Тип": "Быстросменный"
+    }
+  },
+  {
+    "nameRu": "Полотно для реноватора (мультитула) WILPU OSZ 157 E-Cut",
+    "article": "2315700001",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/d68/rjwqho093nblwonx313dczxi1v78ho55.png"
+    ],
+    "description": "Погружное полотно с системой Starlock для дерева и металла.",
+    "specs": {
+      "Крепление": "Starlock"
+    }
+  },
+  {
+    "nameRu": "Полотно для реноватора (мультитула) WILPU OSZ 222",
+    "article": "2322200001",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/c32/ahv3fj6rm7dg6xb8yxij91k2tm8gantu.png"
+    ],
+    "description": "Универсальное полотно для реноватора. Дерево, пластик, алюминий.",
+    "specs": {
+      "Размеры": "50 х 28 мм"
+    }
+  },
+  {
+    "nameRu": "Адаптер для коронок 14-30 мм WILPU ZE3, шестигранный хвостовик 11 мм",
+    "article": "3030300001",
+    "price": "26.77",
+    "images": [
+      "https://www.profitools.by/upload/iblock/764/764c3322fa4bac53672f917155135564.jpg"
+    ],
+    "description": "Адаптер ZE3 для коронок малого диаметра (14-30 мм).",
+    "specs": {
+      "Хвостовик": "11 мм"
+    }
+  },
+  {
+    "nameRu": "Пилки для лобзика HC 19 R Star WILPU",
+    "article": "0221900002",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/7f9/7f938f307374737d7d7d7d7d7d7d7d7d.jpg"
+    ],
+    "description": "Пилки для чистого реза с обратным зубом.",
+    "specs": {
+      "Количество": "2 шт."
+    }
+  },
+  {
+    "nameRu": "Японская универсальная пила Speedy №100, 300 мм, 14 tpi WILPU",
+    "article": "3610000000",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/63d/s09tj3zuc8zlddkrp4v2mqaqz1fsf7cm.png"
+    ],
+    "description": "Японская оригинальная пила Shark SAW, изготовленная для WILPU.",
+    "specs": {
+      "Длина": "300 мм",
+      "Зубьев": "14 tpi"
+    }
+  },
+  {
+    "nameRu": "Сменные лезвия 9 мм (10 шт.) WILPU",
+    "article": "5090900010",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/c07/72i06b7jpljy47wy2k3jhnylrhmw3p35.png"
+    ],
+    "description": "Сегментированные лезвия 9 мм с покрытием BLACK DIAMOND.",
+    "specs": {
+      "Ширина": "9 мм"
+    }
+  },
+  {
+    "nameRu": "Ручная пила 300 мм, 7 tpi WILPU",
+    "article": "5018000300",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/618/yvim2oh7l575u5a14rmtflalpcunpkmh.png"
+    ],
+    "description": "Садовая обрезная пила с изогнутым лезвием.",
+    "specs": {
+      "Длина": "300 мм",
+      "Зубьев": "7 tpi"
+    }
+  },
+  {
+    "nameRu": "Ручная ножовка с усиленной рамой (тип 241) WILPU",
+    "article": "5024100000",
+    "price": "0",
+    "images": [
+      "https://www.profitools.by/upload/iblock/a4e/prwmzkw9ce91gpkxz216cdiuougmwhfp.png"
+    ],
+    "description": "Универсальная ножовка с усиленной рамой из алюминиевого сплава.",
+    "specs": {
+      "Тип": "241",
+      "Зубьев": "24 tpi"
+    }
+  }
+]

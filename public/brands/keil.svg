@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="136.749" height="124" viewBox="0 0 136.749 124">
+  <g id="keil-logo" transform="translate(-892 -42)">
+    <path id="Pfad_1" data-name="Pfad 1" d="M71.681,137.52l7.241,31.543H64.357L58.78,137.52l-7.324,31.543H37.391L50.957,110.3H65.023L59.03,136.272,75.509,110.3H90.656Z" transform="translate(854.609 -18.841)" fill="#161615"></path>
+    <path id="Pfad_2" data-name="Pfad 2" d="M137.984,120.375H122.754l-3.08,13.483h14.482l-2.247,9.9H117.427l-3.5,14.981h16.645l-2.331,10.32H97.2L110.769,110.3h29.546Z" transform="translate(840.306 -18.841)" fill="#161615"></path>
+    <path id="Pfad_3" data-name="Pfad 3" d="M159.859,169.063H145.627L159.193,110.3h14.232Z" transform="translate(828.602 -18.841)" fill="#161615"></path>
+    <path id="Pfad_4" data-name="Pfad 4" d="M204.995,169.063H175.7L189.265,110.3H203.5l-11.236,48.771h15.064Z" transform="translate(821.412 -18.841)" fill="#161615"></path>
+    <rect id="Rechteck_1" data-name="Rechteck 1" width="136.732" height="7.476" transform="translate(892.017 158.524)" fill="#bb0021"></rect>
+    <path id="Pfad_5" data-name="Pfad 5" d="M174.8,86.054H55.289L115.049,45.8,174.8,86.054Z" transform="translate(850.184 -3.797)" fill="#bb0021"></path>
+  </g>
+</svg>

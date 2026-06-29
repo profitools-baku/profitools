@@ -1,0 +1,242 @@
+[
+  {
+    "nameRu": "Сверло по металлу длинное ALPEN HSS DIN 340 RN 118°",
+    "article": "0055100100100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/88b/88b90161476101c107f9c87ebcc363a0.jpg"],
+    "description": "Спиральное сверло ALPEN HSS (Австрия) предназначено для сверления глубоких отверстий или через кондукторные втулки в деталях из легированной и нелегированной стали.",
+    "specs": {"Бренд": "ALPEN", "Страна бренда": "Австрия", "Материал": "HSS"}
+  },
+  {
+    "nameRu": "Сверло по керамограниту ALPEN C PROTECTOR",
+    "article": "N/A",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/938/938450f7574b6f1201ef34a02377a06f.jpg"],
+    "description": "Специальное сверло для экстремально твердого керамогранита до твердости 9 по шкале Мооса/Ритца, а также стекла и фарфора.",
+    "specs": {"Бренд": "ALPEN", "Тип": "Для керамогранита"}
+  },
+  {
+    "nameRu": "Сверло по стеклу ALPEN PROFI GLAS",
+    "article": "0028900300100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/c04/c04d0937a0166635c026046e7293b6e7.jpg"],
+    "description": "Предназначено для сверления стекла, бутылок, фарфора и плитки.",
+    "specs": {"Диаметр": "3.0 мм", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Набор сверл по металлу ALPEN Sprint Master KP19",
+    "article": "0000812311100",
+    "price": "146.40 руб.",
+    "images": ["https://www.profitools.by/upload/iblock/9c6/9c6c0683058852da0e29b47e5b6db760.jpg"],
+    "description": "Набор из 19 сверл диаметром от 1.0 до 10.0 мм с шагом 0.5 мм в металлической кассете.",
+    "specs": {"Количество": "19 пр.", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Универсальное сверло c хвостовиком 1/4'' ALPEN Profi Multicut",
+    "article": "0027200600100",
+    "price": "31.92 руб.",
+    "images": ["https://www.profitools.by/upload/iblock/427/42790938b8a071723df7a69f44f5cfd7.jpg"],
+    "description": "Для сверления металла, дерева, плитки, пластика и кирпича одним инструментом.",
+    "specs": {"Хвостовик": "HEX 1/4\"", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Сверло по металлу ALPEN HSS COBALT DIN 338 RN 130°",
+    "article": "0061300100100",
+    "price": "12.72 руб.",
+    "images": ["https://www.profitools.by/upload/iblock/232/2323a65f7c3274be34812f9be736b006.jpg"],
+    "description": "Кобальтовое сверло для работы с нержавеющей и высокопрочной сталью.",
+    "specs": {"Материал": "HSS-Co 5%", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Сверло алмазное трубчатое ALPEN Profi Diamond",
+    "article": "0029000500100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/7f9/7f9038206103606a596e191983052862.jpg"],
+    "description": "Для безударного сверления керамогранита и плитки.",
+    "specs": {"Диаметр": "5.0 мм", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Сверло по металлу ALPEN PRO HSS DIN 338 RN 135°",
+    "article": "0095400100100",
+    "price": "6.24 руб.",
+    "images": ["https://www.profitools.by/upload/iblock/2b4/2b4421160bc004c856711756ef26e542.jpg"],
+    "description": "Профессиональное сверло с крестообразной заточкой для точного центрирования.",
+    "specs": {"Стандарт": "DIN 338", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Метчикодержатель M2-M12 ALPEN 180 мм",
+    "article": "N/A",
+    "price": "31.92 руб.",
+    "images": ["https://www.profitools.by/upload/iblock/b3e/b3e6e189873d6e574677735393f9c6d3.jpg"],
+    "description": "Регулируемый вороток для метчиков M2-M12.",
+    "specs": {"Диапазон": "M2-M12", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Метчикодержатель с трещоткой M5-M12 ALPEN 100 мм",
+    "article": "0071300002100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/7c6/7c613a026ec94d509e0c4a9f36ca0c3b.jpg"],
+    "description": "Вороток с трещоточным механизмом для работы в труднодоступных местах.",
+    "specs": {"Длина": "100 мм", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Метчикодержатель с трещоткой M3-M10 ALPEN 85 мм",
+    "article": "0071300001100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/7c6/7c613a026ec94d509e0c4a9f36ca0c3b.jpg"],
+    "description": "Компактный метчикодержатель с трещоткой для малых размеров резьбы.",
+    "specs": {"Длина": "85 мм", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Зенковка с шестигранным хвостовиком 1/4\" ALPEN HSS 90°",
+    "article": "0072000630100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/e51/e51949c0b24e05130514289b04f7fc1c.jpg"],
+    "description": "Зенковка для снятия заусенцев и обработки отверстий в металле и пластике.",
+    "specs": {"Хвостовик": "HEX 1/4\"", "Угол": "90°"}
+  },
+  {
+    "nameRu": "Сверло для дерева ALPEN PROFI HOLZ",
+    "article": "N/A",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/035/03577d332612660d5b128525e670497f.jpg"],
+    "description": "Спиральное сверло по дереву с центрирующим острием.",
+    "specs": {"Тип": "По дереву", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Сверло для сварных точек ALPEN HSS ECO",
+    "article": "0033000600100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/93d/93d1825227be2f5c7867be6430b8098c.jpg"],
+    "description": "Предназначено для высверливания точек контактной сварки.",
+    "specs": {"Диаметр": "6.0 мм", "Материал": "HSS"}
+  },
+  {
+    "nameRu": "Зенковка ALPEN HSS 90° DIN 335",
+    "article": "0229200630100",
+    "price": "38.28 руб.",
+    "images": ["https://www.profitools.by/upload/iblock/f31/f318353eddf48fecf978e88863635790.jpg"],
+    "description": "Коническая зенковка с цилиндрическим хвостовиком.",
+    "specs": {"Стандарт": "DIN 335", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Сверло двухступенчатое MAYKESTAG HSS DIN 8376, 180°",
+    "article": "0085100600100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/854/854be5c15b5c13fbbe1d9242b44d141b.jpg"],
+    "description": "Ступенчатое сверло для создания отверстий под цилиндрические головки винтов.",
+    "specs": {"Угол": "180°", "Бренд": "MAYKESTAG (ALPEN group)"}
+  },
+  {
+    "nameRu": "Сверло для дерева ALPEN HSS Cobalt",
+    "article": "0063300300100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/569/569ad4cc9bea2104f496039421326c40.jpg"],
+    "description": "Высококачественное кобальтовое сверло для твердых пород древесины.",
+    "specs": {"Материал": "HSS-Co", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Набор конусных сверл ALPEN HSS Cobalt (3 пр.)",
+    "article": "0072300003100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/938/938361541315668b55502a5c95781a8c.jpg"],
+    "description": "Набор конических сверл для листового металла в прочном кейсе.",
+    "specs": {"Количество": "3 пр.", "Материал": "HSS-Co"}
+  },
+  {
+    "nameRu": "Набор конусных сверл ALPEN HSS (3 пр.)",
+    "article": "0072100003100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/c34/c3482705e49520286826500806132717.jpg"],
+    "description": "Набор сверл для плавного увеличения отверстий в тонких материалах.",
+    "specs": {"Количество": "3 пр.", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Сверло конусное ALPEN HSS Cobalt TiN",
+    "article": "0072500314100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/785/7855f8b8c49134bae859939c37792b06.jpg"],
+    "description": "Конусное сверло с титановым покрытием для долгой службы.",
+    "specs": {"Покрытие": "TiN", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Сверло конусное ALPEN HSS",
+    "article": "0072100522100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/562/56230f28876e655d409000a98f12c6a0.jpg"],
+    "description": "Стандартное конусное сверло для металла.",
+    "specs": {"Бренд": "ALPEN", "Материал": "HSS"}
+  },
+  {
+    "nameRu": "Сверло конусное ALPEN HSS Cobalt",
+    "article": "0072300314100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/785/7855f8b8c49134bae859939c37792b06.jpg"],
+    "description": "Конусное сверло из быстрорежущей стали с кобальтом.",
+    "specs": {"Бренд": "ALPEN", "Материал": "HSS-Co"}
+  },
+  {
+    "nameRu": "Набор ступенчатых сверл ALPEN HSS Cobalt (3 пр.)",
+    "article": "0072600003100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/f64/f6406b12a8707efdf69b07804473347b.jpg"],
+    "description": "Набор профессиональных ступенчатых сверл для точного сверления.",
+    "specs": {"Количество": "3 пр.", "Бренд": "ALPEN"}
+  },
+  {
+    "nameRu": "Набор ступенчатых сверл ALPEN HSS (3 пр.)",
+    "article": "0072200003100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/c34/c3482705e49520286826500806132717.jpg"],
+    "description": "Набор ступенчатых сверл для быстрой обработки листового металла.",
+    "specs": {"Количество": "3 пр.", "Материал": "HSS"}
+  },
+  {
+    "nameRu": "Сверло ступенчатое ALPEN HSS Cobalt TiN",
+    "article": "0072800630100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/34e/34ef6a267f814841961ec6e033e9d80d.jpg"],
+    "description": "Ступенчатое сверло повышенной износостойкости.",
+    "specs": {"Покрытие": "TiN", "Тип": "Ступенчатое"}
+  },
+  {
+    "nameRu": "Сверло ступенчатое ALPEN HSS",
+    "article": "0072200412100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/031/03138b7e28409540b6e16f39386c9540.jpg"],
+    "description": "Ступенчатое сверло для центрирования, сверления и зенкования.",
+    "specs": {"Бренд": "ALPEN", "Диапазон": "4-12 мм"}
+  },
+  {
+    "nameRu": "Сверло ступенчатое ALPEN HSS Cobalt 4-12",
+    "article": "0072600412100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/427/42790938b8a071723df7a69f44f5cfd7.jpg"],
+    "description": "Профессиональное ступенчатое сверло малого диапазона.",
+    "specs": {"Бренд": "ALPEN", "Материал": "HSS-Co"}
+  },
+  {
+    "nameRu": "Набор буров SDS-plus ALPEN F4 (3 пр.)",
+    "article": "0081700568100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/64e/64e7c7e52003c4f268b3687353f6087e.jpg"],
+    "description": "Набор буров для ударного сверления бетона и кирпича.",
+    "specs": {"Тип": "SDS-plus", "Количество": "3 пр."}
+  },
+  {
+    "nameRu": "Набор буров SDS-plus ALPEN Force X (5 пр.)",
+    "article": "0080500005100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/805/8050000510100.jpg"],
+    "description": "Высокопроизводительные буры с 4-мя режущими кромками.",
+    "specs": {"Количество": "5 пр.", "Серия": "Force X"}
+  },
+  {
+    "nameRu": "Набор буров SDS-plus ALPEN Force X (3 пр.)",
+    "article": "0081506810100",
+    "price": "Цена по запросу",
+    "images": ["https://www.profitools.by/upload/iblock/815/815ecccdd703d80811727735b1aa4a1d.jpg"],
+    "description": "Набор буров для работы по армированному бетону.",
+    "specs": {"Размеры": "6, 8, 10 мм", "Бренд": "ALPEN"}
+  }
+]

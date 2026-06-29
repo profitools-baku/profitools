@@ -1,0 +1,20 @@
+import { drizzle } from "drizzle-orm/postgres-js";
+import postgres from "postgres";
+import * as schema from "@db/schema";
+import * as relations from "@db/relations";
+import { env } from "../lib/env";
+
+const fullSchema = { ...schema, ...relations };
+
+let instance: ReturnType<typeof drizzle<typeof fullSchema>>;
+
+export function getDb() {
+  if (!instance) {
+    const client = postgres(env.databaseUrl, { prepare: false });
+    instance = drizzle(client, {
+      schema: fullSchema,
+    });
+  }
+  return instance;
+}
+export const db = getDb();
