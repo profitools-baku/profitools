@@ -9,13 +9,20 @@ FROM deps AS build
 COPY . .
 RUN npm run build
 
+FROM base AS prod-deps
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev --no-audit
+
 FROM node:20-alpine AS production
 WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=build /app/dist ./dist
-COPY package.json ./
+COPY --from=prod-deps --chown=node:node /app/node_modules ./node_modules
+COPY --from=build --chown=node:node /app/dist ./dist
 
-RUN mkdir -p public/uploads
+# Create uploads directory and set permissions
+RUN mkdir -p public/uploads && chown -R node:node public/uploads
 
+USER node
+
+ENV NODE_ENV=production
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["node", "dist/boot.js"]
