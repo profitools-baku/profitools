@@ -17,6 +17,7 @@ FROM node:20-alpine AS production
 WORKDIR /app
 COPY --from=prod-deps --chown=node:node /app/node_modules ./node_modules
 COPY --from=build --chown=node:node /app/dist ./dist
+COPY --from=build --chown=node:node /app/public ./public
 
 # Create uploads directory and set permissions
 RUN mkdir -p public/uploads && chown -R node:node public/uploads
