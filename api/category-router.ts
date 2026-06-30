@@ -2,7 +2,7 @@ import { z } from "zod";
 import { createRouter, publicQuery, adminQuery } from "./middleware";
 import { getDb } from "./queries/connection";
 import { categories, brands, products } from "@db/schema";
-import { eq, count } from "drizzle-orm";
+import { eq, count, and, ne } from "drizzle-orm";
 
 export const categoryRouter = createRouter({
   list: publicQuery.query(async () => {
@@ -84,12 +84,13 @@ export const categoryRouter = createRouter({
 export const brandRouter = createRouter({
   list: publicQuery.query(async () => {
     const db = getDb();
-    return db.select().from(brands).orderBy(brands.sortOrder);
+    return db.select().from(brands).where(and(ne(brands.slug, "king-tony"), ne(brands.slug, "nws"))).orderBy(brands.sortOrder);
   }),
 
   bySlug: publicQuery
     .input(z.object({ slug: z.string() }))
     .query(async ({ input }) => {
+      if (input.slug === "king-tony" || input.slug === "nws") return null;
       const db = getDb();
       const result = await db
         .select()
@@ -101,7 +102,7 @@ export const brandRouter = createRouter({
 
   withProductCount: publicQuery.query(async () => {
     const db = getDb();
-    const brs = await db.select().from(brands).orderBy(brands.sortOrder);
+    const brs = await db.select().from(brands).where(and(ne(brands.slug, "king-tony"), ne(brands.slug, "nws"))).orderBy(brands.sortOrder);
     const result = [];
     for (const b of brs) {
       const cnt = await db

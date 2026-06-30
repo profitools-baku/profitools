@@ -41,10 +41,10 @@ async function seed() {
   if (existingBrands.length === 0) {
     console.log("Seeding brands...");
     await db.insert(brands).values([
-      { slug: "proxxon", name: "PROXXON", logoUrl: "/images/brands/proxxon.png", sortOrder: 1 },
-      { slug: "pica", name: "PicA", logoUrl: "/images/brands/pica.png", sortOrder: 2 },
-      { slug: "hardy", name: "HARDY", logoUrl: "/images/brands/hardy.png", sortOrder: 3 },
-      { slug: "jokari", name: "JOKARI", logoUrl: "/images/brands/jokari.png", sortOrder: 4 },
+      { slug: "proxxon", name: "PROXXON", logoUrl: "/images/brands/proxxon.jpg", sortOrder: 1 },
+      { slug: "pica", name: "PicA", logoUrl: "/images/brands/pica.jpg", sortOrder: 2 },
+      { slug: "hardy", name: "HARDY", logoUrl: "/images/brands/hardy.jpg", sortOrder: 3 },
+      { slug: "jokari", name: "JOKARI", logoUrl: "/images/brands/jokari.jpg", sortOrder: 4 },
       { slug: "stabila", name: "STABILA", logoUrl: "/images/brands/stabila.png", sortOrder: 5 },
     ]);
   }

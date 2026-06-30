@@ -41,6 +41,9 @@ export const productRouter = createRouter({
         );
       }
 
+      conditions.push(ne(products.brandId, 6));
+      conditions.push(ne(products.brandId, 7));
+
       const where = conditions.length > 0 ? and(...conditions) : undefined;
 
       let orderBy: any[] = [desc(products.sortOrder), desc(products.id)];
@@ -117,6 +120,7 @@ export const productRouter = createRouter({
         if (result.length === 0) return null;
 
         const product = result[0];
+        if (product.brandId === 6 || product.brandId === 7) return null;
 
         // Increment view count
         await db
@@ -203,7 +207,9 @@ export const productRouter = createRouter({
         .where(
           and(
             eq(products.categoryId, product[0].categoryId),
-            ne(products.id, input.productId)
+            ne(products.id, input.productId),
+            ne(products.brandId, 6),
+            ne(products.brandId, 7)
           )
         )
         .limit(input.limit);
@@ -229,12 +235,16 @@ export const productRouter = createRouter({
         })
         .from(products)
         .where(
-          or(
-            ilike(products.nameRu, searchPattern),
-            ilike(products.nameAz, searchPattern),
-            ilike(products.nameEn, searchPattern),
-            ilike(products.descriptionRu, searchPattern),
-            ilike(products.sku, searchPattern)
+          and(
+            ne(products.brandId, 6),
+            ne(products.brandId, 7),
+            or(
+              ilike(products.nameRu, searchPattern),
+              ilike(products.nameAz, searchPattern),
+              ilike(products.nameEn, searchPattern),
+              ilike(products.descriptionRu, searchPattern),
+              ilike(products.sku, searchPattern)
+            )
           )
         )
         .limit(7);

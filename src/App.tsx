@@ -24,6 +24,7 @@ import AdminUsers from "./pages/admin/Users";
 import AdminSettings from "./pages/admin/Settings";
 import AdminLogin from "./pages/admin/Login";
 import NotFound from "./pages/NotFound";
+import Maintenance from "./pages/Maintenance";
 
 import { Routes, Route, useLocation, Link } from "react-router";
 import { AnimatePresence } from "framer-motion";
@@ -37,9 +38,19 @@ export default function App() {
   const { user } = useAuth();
   const location = useLocation();
   const isAdmin = location.pathname.startsWith("/admin");
+  const isMaintenanceMode = import.meta.env.VITE_MAINTENANCE_MODE === "true";
+
+  if (isMaintenanceMode && !isAdmin && user?.role !== "admin") {
+    return <Maintenance />;
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
+      {isMaintenanceMode && (
+        <div className="bg-orange-600 text-white text-center py-1.5 text-xs font-bold z-50 relative select-none uppercase tracking-wider">
+          ⚠️ Режим техработ активен. Обычные пользователи видят заглушку
+        </div>
+      )}
       <SplashLoader />
       <LoadingBar />
       {!isAdmin && <Header />}
