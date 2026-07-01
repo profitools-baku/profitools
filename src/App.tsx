@@ -33,12 +33,19 @@ import { Wrench } from "lucide-react";
 import { useAuth } from "./hooks/useAuth";
 import { SplashLoader } from "./components/SplashLoader";
 import { LoadingBar } from "./components/LoadingBar";
+import { trpc } from "./providers/trpc";
 
 export default function App() {
   const { user } = useAuth();
   const location = useLocation();
   const isAdmin = location.pathname.startsWith("/admin");
-  const isMaintenanceMode = import.meta.env.VITE_MAINTENANCE_MODE === "true";
+  const { data: settingsData, isLoading: isLoadingSettings } = trpc.settings.getAll.useQuery();
+  const dbMaintenanceMode = settingsData?.find(s => s.key === "maintenanceMode")?.value === "true";
+  const isMaintenanceMode = dbMaintenanceMode || import.meta.env.VITE_MAINTENANCE_MODE === "true";
+
+  if (isLoadingSettings) {
+    return null;
+  }
 
   if (isMaintenanceMode && !isAdmin && user?.role !== "admin") {
     return <Maintenance />;

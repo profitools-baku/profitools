@@ -78,17 +78,319 @@ async function seed() {
     ];
 
     const PICA_PRODUCTS = [
-      { sku: "PC-4040", nameAz: "Pica Fine Dry Longlife üçün boz qələm dəsti, sərtlik H", nameRu: "Набор серых грифелей для Pica Fine Dry Longlife, твердость H", nameEn: "Gray refill set Pica Fine Dry Longlife hardness H", price: "11.27", cat: "markirovka", stock: 40, specs: { "Sərtlik": "H", "Rəng": "Boz" } },
-      { sku: "PC-53440", nameAz: "PICAClassic 534 MEDIUM incə daimi marker dəsti", nameRu: "Набор тонких перманентных маркеров PICAClassic 534 MEDIUM", nameEn: "PICAClassic 534 MEDIUM fine permanent marker set", price: "15.22", cat: "markirovka", stock: 25, specs: { "Ucluğu": "MEDIUM", "Rəng": "Qara" } },
-      { sku: "PC-99044", nameAz: "Picavior Permanent marker üçün əvəzetmə stərjni", nameRu: "Сменные грифели для маркера Picavior Permanent", nameEn: "Refill leads for Picavior Permanent marker", price: "11.06", cat: "markirovka", stock: 30, specs: { "Rəng": "Qara" } },
-      { sku: "PC-15046", nameAz: "Picain Ink Deep Hole Marker dərin dəlik markeri", nameRu: "Маркер для глубоких отверстий Picain Ink Deep Hole Marker", nameEn: "Deep hole marker Picain Ink", price: "16.68", cat: "markirovka", stock: 20, pop: true, specs: { "Ucluğu": "Uzun ucluq", "Rəng": "Qara" } },
-      { sku: "PC-30407", nameAz: "Picay Longlife tikinti karandaşı dəsti stərjni ilə 30407", nameRu: "Набор строительный карандаш Pica Longlife с грифелями 30407", nameEn: "Pica Longlife construction pencil set with refills 30407", price: "45.22", cat: "markirovka", stock: 15, specs: { "Rəng": "Göy/Sarı", "Stərjni sayı": "4 ədəd" } },
-      { sku: "PC-30405", nameAz: "Picay Longlife tikinti karandaşı dəsti stərjni ilə 30405", nameRu: "Набор строительный карандаш Pica Longlife с грифелями 30405", nameEn: "Pica Longlife construction pencil set with refills 30405", price: "46.54", cat: "markirovka", stock: 12, specs: { "Rəng": "Qırmızı/Boz", "Stərjni sayı": "4 ədəd" } },
-      { sku: "PC-52240", nameAz: "PICAClassic Classic 522 Instant-White daimi marker", nameRu: "Маркер перманентный PICAClassic Classic 522 Instant-White", nameEn: "PICAClassic 522 Instant-White permanent marker", price: "4.49", cat: "markirovka", stock: 50, specs: { "Rəng": "Ağ" } },
-      { sku: "PC-52840", nameAz: "PICAClassic Classic 528 XXL daimi marker", nameRu: "Маркер перманентный PICAClassic Classic 528 XXL", nameEn: "PICAClassic 528 XXL permanent marker", price: "11.21", cat: "markirovka", stock: 22, specs: { "Rəng": "Qara", "Ucluğu": "XXL" } },
-      { sku: "PC-28044", nameAz: "PICAClassic Eco mumlu işarələmə kreydası", nameRu: "Мелок разметочный восковый PICAClassic Eco", nameEn: "PICAClassic Eco wax marking chalk", price: "18.50", cat: "markirovka", stock: 18, specs: { "Rəng": "Yaşıl/Sarı", "Material": "Mumlu" } },
-      { sku: "PC-30404", nameAz: "Picay Longlife tikinti karandaşı dəsti stərjni ilə 30404", nameRu: "Набор строительный карандаш Pica Longlife с грифелями 30404", nameEn: "Pica Longlife construction pencil set with refills 30404", price: "45.63", cat: "markirovka", stock: 14, specs: { "Rəng": "Qara/Sarı", "Stərjni sayı": "4 ədəd" } },
-      { sku: "PC-30403", nameAz: "Picay Longlife tikinti karandaşı dəsti stərjni ilə 30403", nameRu: "Набор строительный карандаш Pica Longlife с грифелями 30403", nameEn: "Pica Longlife construction pencil set with refills 30403", price: "49.80", cat: "markirovka", stock: 10, specs: { "Rəng": "Ağ/Mavi", "Stərjni sayı": "4 ədəd" } },
+      {
+        sku: "PC-544",
+        nameRu: "Карандаш разметочный двухсторонний для сухой и влажной древесины PICA CLASSIC Aniline 544",
+        nameAz: "Quru və yaş oduncaq üçün ikitərəfli nişanlama karandaşı PICA CLASSIC Aniline 544",
+        nameEn: "Double-sided marking pencil for dry and wet wood PICA CLASSIC Aniline 544",
+        price: "3.90",
+        images: [
+          "https://profitools.by/upload/iblock/6fe/6fe8bedaa14d9a69e19d16a32bdb9a75.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/ed4/1200_1200_140cd750bba9870f18aada2478b24840a/ed4d88572b0c500660a3bebcf9afc6f6.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/767/1200_1200_140cd750bba9870f18aada2478b24840a/767330e9081cb785fbd6f31134803ca7.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/fa3/1200_1200_140cd750bba9870f18aada2478b24840a/fa38cff8fbb78849b8a7069c2feb9b60.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/f34/1200_1200_140cd750bba9870f18aada2478b24840a/f34a8048d3c94e4e90cfc54370bf307d.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/458/1200_1200_140cd750bba9870f18aada2478b24840a/4580f9c69fa8f75664acfccab73dac71.jpg"
+        ],
+        cat: "markirovka",
+        stock: 40,
+        specsRu: {
+          "Бренд": "PICA",
+          "Страна бренда": "Германия",
+          "Производитель": "Pica-Marker GmbH",
+          "Тип": "Разметочный карандаш",
+          "Форма": "Овальная",
+          "Материал": "Древесина",
+          "Длина": "240 мм",
+          "Особенности": "Двухсторонний: сторона 'WET' (фиолетовый) для влажной древесины, сторона 'DRY' (серый 2H) для сухой древесины"
+        },
+        specsAz: {
+          "Brend": "PICA",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "Pica-Marker GmbH",
+          "Tip": "Nişanlama karandaşı",
+          "Forma": "Oval",
+          "Material": "Oduncaq",
+          "Dəyər": "240 mm",
+          "Xüsusiyyətləri": "İkitərəfli: yaş oduncaq üçün 'WET' tərəfi (bənövşəyi), quru oduncaq üçün 'DRY' tərəfi (boz 2H)"
+        },
+        specsEn: {
+          "Brand": "PICA",
+          "Brand country": "Germany",
+          "Manufacturer": "Pica-Marker GmbH",
+          "Type": "Marking pencil",
+          "Shape": "Oval",
+          "Material": "Wood",
+          "Length": "240 mm",
+          "Features": "Double-sided: 'WET' side (violet) for wet wood, 'DRY' side (gray 2H) for dry wood"
+        }
+      },
+      {
+        sku: "PC-540",
+        nameRu: "Карандаш разметочный для дерева PICA CLASSIC 540",
+        nameAz: "Oduncaq üçün nişanlama karandaşı PICA CLASSIC 540",
+        nameEn: "Wood marking pencil PICA CLASSIC 540",
+        price: "3.50",
+        images: [
+          "https://profitools.by/upload/iblock/ead/eadb34b13328745190ce277f4a5cba56.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/832/1200_1200_140cd750bba9870f18aada2478b24840a/8325f2c9a024d6d5378936b1de93dec0.jpg"
+        ],
+        cat: "markirovka",
+        stock: 25,
+        specsRu: {
+          "Бренд": "PICA",
+          "Страна бренда": "Германия",
+          "Производитель": "Pica-Marker GmbH",
+          "Тип": "Разметочный карандаш",
+          "Форма": "Овальная",
+          "Материал": "Древесина",
+          "Грифель": "Графит, жесткость 2H",
+          "Длина": "240 мм",
+          "Назначение": "Для дерева и ламината"
+        },
+        specsAz: {
+          "Brend": "PICA",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "Pica-Marker GmbH",
+          "Tip": "Nişanlama karandaşı",
+          "Forma": "Oval",
+          "Material": "Oduncaq",
+          "Qrifel": "Qrafit, sərtlik 2H",
+          "Uzunluq": "240 mm",
+          "Təyinatı": "Oduncaq və laminat üçün"
+        },
+        specsEn: {
+          "Brand": "PICA",
+          "Brand country": "Germany",
+          "Manufacturer": "Pica-Marker GmbH",
+          "Type": "Marking pencil",
+          "Shape": "Oval",
+          "Material": "Wood",
+          "Lead": "Graphite, hardness 2H",
+          "Length": "240 mm",
+          "Purpose": "For wood and laminate"
+        }
+      },
+      {
+        sku: "PC-533",
+        nameRu: "Маркер ультратонкий перманентный PICA Classic 533 Fine",
+        nameAz: "PICA Classic 533 Fine ultranazik daimi marker",
+        nameEn: "PICA Classic 533 Fine ultra-fine permanent marker",
+        price: "5.00",
+        images: [
+          "https://profitools.by/upload/iblock/594/594e38feae5b862c05ab44c95e5734eb.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/69f/1200_1200_140cd750bba9870f18aada2478b24840a/69f7700fd11b5f16d0568c8c20216c38.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/d14/1200_1200_140cd750bba9870f18aada2478b24840a/d149ddd2f70e12c3757d541161cb95f3.jpg"
+        ],
+        cat: "markirovka",
+        stock: 30,
+        specsRu: {
+          "Бренд": "PICA",
+          "Страна бренда": "Германия",
+          "Производитель": "Pica-Marker GmbH",
+          "Тип": "Перманентный маркер",
+          "Цвет": "Черный",
+          "Толщина линии": "0.7 мм",
+          "Особенности": "Колпачок с клипсой, подходит для кабеля, металла, пластика, стекла, керамики"
+        },
+        specsAz: {
+          "Brend": "PICA",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "Pica-Marker GmbH",
+          "Tip": "Daimi marker",
+          "Rəng": "Qara",
+          "Xəttin qalınlığı": "0.7 mm",
+          "Xüsusiyyətləri": "Klipsli qapaq, kabel, metal, plastik, şüşə, keramika üçün uyğundur"
+        },
+        specsEn: {
+          "Brand": "PICA",
+          "Brand country": "Germany",
+          "Manufacturer": "Pica-Marker GmbH",
+          "Type": "Permanent marker",
+          "Color": "Black",
+          "Line thickness": "0.7 mm",
+          "Features": "Cap with clip, suitable for cable, metal, plastic, glass, ceramics"
+        }
+      },
+      {
+        sku: "PC-521",
+        nameRu: "Маркер перманентный PICA Classic 521",
+        nameAz: "PICA Classic 521 daimi marker",
+        nameEn: "PICA Classic 521 permanent marker",
+        price: "10.00",
+        images: [
+          "https://profitools.by/upload/resize_cache/iblock/aad/1200_1200_140cd750bba9870f18aada2478b24840a/aad2ff1949ad682847165b2793cfab45.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/8ad/1200_1200_140cd750bba9870f18aada2478b24840a/8ad7134890697ace43faf9bf55d89a43.jpg"
+        ],
+        cat: "markirovka",
+        stock: 22,
+        specsRu: {
+          "Бренд": "PICA",
+          "Страна бренда": "Германия",
+          "Производитель": "Pica-Marker GmbH",
+          "Тип": "Перманентный маркер",
+          "Цвет": "Черный",
+          "Основа": "Спиртовая",
+          "Наконечник": "Клиновой",
+          "Особенности": "Водонепроницаемый, чернила 'Dry Safe' (до 48 часов открытым)"
+        },
+        specsAz: {
+          "Brend": "PICA",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "Pica-Marker GmbH",
+          "Tip": "Daimi marker",
+          "Rəng": "Qara",
+          "Əsas": "Spirt əsaslı",
+          "Ucluq": "Pazvari",
+          "Xüsusiyyətləri": "Suya davamlı, 'Dry Safe' mürəkkəbi (48 saata qədər qapağı açıq qala bilər)"
+        },
+        specsEn: {
+          "Brand": "PICA",
+          "Brand country": "Germany",
+          "Manufacturer": "Pica-Marker GmbH",
+          "Type": "Permanent marker",
+          "Color": "Black",
+          "Base": "Alcohol-based",
+          "Tip": "Chisel tip",
+          "Features": "Waterproof, 'Dry Safe' ink (up to 48 hours uncapped)"
+        }
+      },
+      {
+        sku: "PC-6030",
+        nameRu: "Набор влагостойких сменных грифелей-стержней (12 шт) для карандаша Pica Big Dry Longlife",
+        nameAz: "Pica Big Dry Longlife karandaşı üçün suya davamlı əvəzedici qrifellər dəsti (12 ədəd)",
+        nameEn: "Water-resistant replacement lead set (12 pcs) for Pica Big Dry Longlife pencil",
+        price: "12.00",
+        images: [
+          "https://www.profitools.by/upload/resize_cache/iblock/164/1200_1200_140cd750bba9870f18aada2478b24840a/1643de346fa2f7c87314ddf6b405ea40.jpg",
+          "https://www.profitools.by/upload/resize_cache/iblock/c45/1200_1200_140cd750bba9870f18aada2478b24840a/c45759164c5deb6d274e4de662a858c0.jpg",
+          "https://www.profitools.by/upload/resize_cache/iblock/bbf/1200_1200_140cd750bba9870f18aada2478b24840a/bbf8e2fc0cb307febf2d0344a0ec53cd.jpg"
+        ],
+        cat: "markirovka",
+        stock: 18,
+        specsRu: {
+          "Бренд": "PICA",
+          "Страна бренда": "Германия",
+          "Производитель": "Pica-Marker GmbH",
+          "Тип": "Сменные грифели",
+          "Количество": "12 шт (розовые, синие, белые по 4 шт)",
+          "Профиль": "Прямоугольный, 2 x 5 мм",
+          "Длина": "150 мм",
+          "Особенности": "Влагостойкая серия, для камня, кирпича, металла, влажной древесины, пластика"
+        },
+        specsAz: {
+          "Brend": "PICA",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "Pica-Marker GmbH",
+          "Tip": "Əvəzedici qrifellər",
+          "Say": "12 ədəd (hərəsindən 4 ədəd çəhrayı, göy, ağ)",
+          "Profil": "Düzbucaqlı, 2 x 5 mm",
+          "Uzunluq": "150 mm",
+          "Xüsusiyyətləri": "Suya davamlı seriya, daş, kərpic, metal, nəm oduncaq, plastik üçün"
+        },
+        specsEn: {
+          "Brand": "PICA",
+          "Brand country": "Germany",
+          "Manufacturer": "Pica-Marker GmbH",
+          "Type": "Replacement leads",
+          "Quantity": "12 pcs (pink, blue, white - 4 pcs each)",
+          "Profile": "Rectangular, 2 x 5 mm",
+          "Length": "150 mm",
+          "Features": "Water-resistant series, for stone, brick, metal, wet wood, plastic"
+        }
+      },
+      {
+        sku: "PC-950",
+        nameRu: "Чернила для маркеров PICA Ink Refill Set",
+        nameAz: "PICA Ink Refill Set marker doldurma mürəkkəbi",
+        nameEn: "PICA Ink Refill Set marker refill ink",
+        price: "16.00",
+        images: [
+          "https://www.profitools.by/upload/resize_cache/iblock/ee7/1200_1200_140cd750bba9870f18aada2478b24840a/ee71ca78819d24b8b2475a736ea13119.jpg",
+          "https://www.profitools.by/upload/resize_cache/iblock/b42/1200_1200_140cd750bba9870f18aada2478b24840a/b42076c7265d148f911ba239cf8b45fb.jpg",
+          "https://www.profitools.by/upload/resize_cache/iblock/413/1200_1200_140cd750bba9870f18aada2478b24840a/4131a6e0c1c755040d2cfb66eaa561f2.jpg",
+          "https://www.profitools.by/upload/resize_cache/iblock/581/1200_1200_140cd750bba9870f18aada2478b24840a/581d7b90664f5ad1c91ada7c19aaf91d.jpg"
+        ],
+        cat: "markirovka",
+        stock: 14,
+        specsRu: {
+          "Бренд": "PICA",
+          "Страна бренда": "Германия",
+          "Производитель": "Pica-Marker GmbH",
+          "Тип": "Чернила для заправки",
+          "Цвет": "Черный",
+          "Объем": "25 мл",
+          "Ресурс": "До 15 и более заправок",
+          "Комплектация": "Пипетка, 2 запасных стержня"
+        },
+        specsAz: {
+          "Brend": "PICA",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "Pica-Marker GmbH",
+          "Tip": "Doldurma mürəkkəbi",
+          "Rəng": "Qara",
+          "Həcm": "25 ml",
+          "Resurs": "15 və daha çox doldurma",
+          "Komplektasiya": "Pipet, 2 ədəd ehtiyat ucluq"
+        },
+        specsEn: {
+          "Brand": "PICA",
+          "Brand country": "Germany",
+          "Manufacturer": "Pica-Marker GmbH",
+          "Type": "Refill ink",
+          "Color": "Black",
+          "Volume": "25 ml",
+          "Resource": "Up to 15 or more refills",
+          "Kit contents": "Pipette, 2 spare tips"
+        }
+      },
+      {
+        sku: "PC-590",
+        nameRu: "Мелок восковый PICA Classic Pro",
+        nameAz: "PICA Classic Pro mum təbaşiri",
+        nameEn: "PICA Classic Pro wax crayon",
+        price: "17.00",
+        images: [
+          "https://profitools.by/upload/resize_cache/iblock/a24/500_500_140cd750bba9870f18aada2478b24840a/a243bff196bade0146a11248f7fae397.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/9cd/500_500_140cd750bba9870f18aada2478b24840a/9cd46aa93a91a175ed64a38222a7c6b8.jpg",
+          "https://profitools.by/upload/resize_cache/iblock/8b0/500_500_140cd750bba9870f18aada2478b24840a/8b081af2940026a596c1af521cc94edd.jpg"
+        ],
+        cat: "markirovka",
+        stock: 20,
+        specsRu: {
+          "Бренд": "PICA",
+          "Страна бренда": "Германия",
+          "Производитель": "Pica-Marker GmbH",
+          "Тип": "Восковой мелок",
+          "Цвет": "Белый",
+          "Форма": "Шестигранная",
+          "Длина": "120 мм",
+          "Диаметр": "12 мм",
+          "Особенности": "Для долговечной маркировки, бумажная обертка"
+        },
+        specsAz: {
+          "Brend": "PICA",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "Pica-Marker GmbH",
+          "Tip": "Mum təbaşiri",
+          "Rəng": "Ağ",
+          "Forma": "Altıbucaqlı",
+          "Uzunluq": "120 mm",
+          "Çap": "12 mm",
+          "Xüsusiyyətləri": "Uzunmüddətli nişanlama üçün, kağız sarğılı"
+        },
+        specsEn: {
+          "Brand": "PICA",
+          "Brand country": "Germany",
+          "Manufacturer": "Pica-Marker GmbH",
+          "Type": "Wax crayon",
+          "Color": "White",
+          "Shape": "Hexagonal",
+          "Length": "120 mm",
+          "Diameter": "12 mm",
+          "Features": "For long-lasting marking, paper wrapped"
+        }
+      }
     ];
 
     const HARDY_PRODUCTS = [
@@ -96,26 +398,282 @@ async function seed() {
     ];
 
     const JOKARI_PRODUCTS = [
-      { sku: "JK-62000", nameAz: "ESD-PLUS mikro izolyasiya soyucu", nameRu: "Микроприспособление для снятия изоляции ESD-PLUS", nameEn: "ESD-PLUS micro wire stripper", price: "118.70", cat: "elektrika-kabel", stock: 8, pop: true, specs: { "Diaqon": "0.1-0.8 mm" } },
-      { sku: "JK-62001", nameAz: "PWS-PLUS mikro izolyasiya soyucu", nameRu: "Микроприспособление для снятия изоляции PWS-PLUS", nameEn: "PWS-PLUS micro wire stripper", price: "66.07", cat: "elektrika-kabel", stock: 10, specs: { "Diaqon": "0.5-1.2 mm" } },
-      { sku: "JK-61900", nameAz: "Allrounder izolyasiya soyucu", nameRu: "Съемник изоляции Allrounder", nameEn: "Allrounder wire stripper", price: "52.35", cat: "elektrika-kabel", stock: 14, specs: { "Diaqon": "0.2-6 mm²" } },
-      { sku: "JK-61600", nameAz: "Super 4 PLUS / PRO izolyasiya soyucu üçün əvəzetmə bıçaqlar", nameRu: "Сменные ножи для съемника изоляции Super 4 PLUS / PRO", nameEn: "Replacement blades for Super 4 PLUS / PRO", price: "32.82", cat: "elektrika-kabel", stock: 20, specs: { "Say": "2 ədəd" } },
-      { sku: "JK-61670", nameAz: "System 4-70 kabel bıçağı üçün qarmaq əvəzetmə bıçağı", nameRu: "Запасное крючкообразное лезвие для ножа System 4-70", nameEn: "Spare hook blade for System 4-70", price: "32.72", cat: "elektrika-kabel", stock: 18, specs: { "Tip": "Qarmaq bıçaq" } },
-      { sku: "JK-61680", nameAz: "Kabel bıçağı üçün TIN örtüklü əvəzetmə bıçaq", nameRu: "Сменное лезвие с TIN-покрытием для ножа для разделки кабеля", nameEn: "TIN-coated replacement blade for cable knife", price: "6.17", cat: "elektrika-kabel", stock: 45, specs: { "Örtük": "TIN" } },
-      { sku: "JK-61160", nameAz: "Standart №16 kabel bıçağı", nameRu: "Нож для разделки кабеля Standart №16", nameEn: "Cable knife Standart №16", price: "24.71", cat: "elektrika-kabel", stock: 16, specs: { "Ölçü": "№16" } },
-      { sku: "JK-20050", nameAz: "Super 4 Plus avtomatik izolyasiya soyucu kəlbətin", nameRu: "Автоматические клещи для снятия изоляции Super 4 Plus", nameEn: "Super 4 Plus automatic wire stripping pliers", price: "46.18", oldPrice: "55.00", cat: "elektrika-kabel", stock: 12, pop: true, specs: { "Diaqon": "0.2-6 mm²" } },
-      { sku: "JK-62005", nameAz: "Bütün mikro alətlər üçün əvəzetmə bıçaq", nameRu: "Запасной сменной нож для всех видов микроприспособлений", nameEn: "Spare blade for all micro tools", price: "32.82", cat: "elektrika-kabel", stock: 22, specs: {} },
-      { sku: "JK-61400", nameAz: "Strip №14 izolyasiya soyucu", nameRu: "Съемник изоляции Strip №14", nameEn: "Wire stripper Strip №14", price: "60.02", cat: "elektrika-kabel", stock: 9, specs: { "Diaqon": "0.5-4 mm²" } },
-      { sku: "JK-20150", nameAz: "Super 4 PRO avtomatik izolyasiya soyucu kəlbətin", nameRu: "Автоматические клещи для снятия изоляции Super 4 PRO", nameEn: "Super 4 PRO automatic wire stripping pliers", price: "55.56", oldPrice: "65.00", cat: "elektrika-kabel", stock: 8, specs: { "Diaqon": "0.08-6 mm²" } },
-      { sku: "JK-64000", nameAz: "Locator Box vstavka dəsti", nameRu: "Набор вставок Locator Box", nameEn: "Locator Box insert set", price: "30.51", cat: "elektrika-kabel", stock: 15, specs: { "Parçalar": "7 ədəd" } },
-      { sku: "JK-64001", nameAz: "SW11 açar (TOP-Coax Plus üçün)", nameRu: "Ключ SW11 (для TOP-Coax Plus)", nameEn: "Key SW11 (for TOP-Coax Plus)", price: "5.67", cat: "elektrika-kabel", stock: 30, specs: { "Ölçü": "SW11" } },
-      { sku: "JK-61640", nameAz: "Secura 2K izolyasiya soyucu üçün əvəzetmə bıçaqlar", nameRu: "Сменные ножи для съемника изоляции Secura 2K", nameEn: "Replacement blades for Secura 2K", price: "39.64", cat: "elektrika-kabel", stock: 14, specs: { "Say": "2 ədəd" } },
-      { sku: "JK-61150", nameAz: "Secura №16 kabel bıçağı", nameRu: "Нож для разделки кабеля Secura №16", nameEn: "Cable knife Secura №16", price: "28.19", cat: "elektrika-kabel", stock: 13, specs: { "Ölçü": "№16" } },
-      { sku: "JK-61681", nameAz: "Kabel bıçağı üçün TIN örtüklü əvəzetmə bıçaq dəsti (3 əd.)", nameRu: "Набор сменных лезвий (3 шт) с TIN-покрытием для ножа", nameEn: "TIN-coated replacement blade set (3 pcs)", price: "18.54", cat: "elektrika-kabel", stock: 20, specs: { "Say": "3 ədəd", "Örtük": "TIN" } },
-      { sku: "JK-61500", nameAz: "Secura №15 izolyasiya soyucu", nameRu: "Съемник изоляции Secura №15", nameEn: "Wire stripper Secura №15", price: "64.89", cat: "elektrika-kabel", stock: 7, specs: { "Diaqon": "0.2-10 mm²" } },
-      { sku: "JK-20350", nameAz: "Secura 2K avtomatik izolyasiya soyucu kəlbətin", nameRu: "Автоматические клещи для снятия изоляции Secura 2K", nameEn: "Secura 2K automatic wire stripping pliers", price: "82.23", cat: "elektrika-kabel", stock: 6, pop: true, specs: { "Diaqon": "0.08-10 mm²" } },
-      { sku: "JK-61620", nameAz: "FKZ izolyasiya soyucu üçün əvəzetmə bıçaqlar", nameRu: "Сменные ножи для съемника изоляции FKZ", nameEn: "Replacement blades for FKZ stripper", price: "90.81", cat: "elektrika-kabel", stock: 5, specs: {} },
-      { sku: "JK-61690", nameAz: "Kabel bıçağı üçün xarici bıçaq qoruyucu başlıq", nameRu: "Защитный колпачок для наружного лезвия ножа", nameEn: "Protective cap for cable knife blade", price: "3.71", cat: "elektrika-kabel", stock: 60, specs: { "Material": "Plastik" } },
+      {
+        sku: "JK-20200",
+        nameRu: "Автоматические клещи для снятия изоляции Super 4 PRO JOKARI",
+        nameAz: "Super 4 PRO JOKARI avtomatik izolyasiya soyucu kəlbətin",
+        nameEn: "Super 4 PRO JOKARI automatic wire stripping pliers",
+        price: "174.60",
+        images: [
+          "https://www.profitools.by/upload/iblock/478/2y6dxopnzv3k1qlp0n7bsbfwjlj0ariz.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/fcf/500_500_140cd750bba9870f18aada2478b24840a/ya50zjpmp63ius4162okrpakuo8cb52s.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/076/500_500_140cd750bba9870f18aada2478b24840a/ei12427am1jvs1d8pseqtfnbxzwitdt6.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/197/500_500_140cd750bba9870f18aada2478b24840a/co47tavefv20zju5p52mwf0yq3igdk5e.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/fb5/500_500_140cd750bba9870f18aada2478b24840a/gcqtbxqpalp7xgth8jztceptuu5cc5zi.png"
+        ],
+        cat: "elektrika-kabel",
+        stock: 12,
+        pop: true,
+        specsRu: {
+          "Артикул": "20200",
+          "Бренд": "JOKARI",
+          "Страна бренда": "Германия",
+          "Производитель": "JOKARI-Krampe GmbH",
+          "Назначение": "Удаление изоляции с одножильных проводников",
+          "Сечение проводников": "0,2 до 6 мм² (AWG 24 - 10)",
+          "Особенности": "Автоматическая настройка, встроенные бокорезы (до 2,5 мм²)"
+        },
+        specsAz: {
+          "Artikul": "20200",
+          "Brend": "JOKARI",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "JOKARI-Krampe GmbH",
+          "Təyinatı": "Birqütblü naqillərdən izolyasiyanın çıxarılması",
+          "Naqil kəsiyi": "0,2 - 6 mm² (AWG 24 - 10)",
+          "Xüsusiyyətləri": "Avtomatik tənzimləmə, daxili yan kəsicilər (2,5 mm²-ə qədər)"
+        },
+        specsEn: {
+          "Article": "20200",
+          "Brand": "JOKARI",
+          "Brand country": "Germany",
+          "Manufacturer": "JOKARI-Krampe GmbH",
+          "Purpose": "Stripping insulation from single-core conductors",
+          "Wire cross-section": "0.2 to 6 mm² (AWG 24 - 10)",
+          "Features": "Automatic adjustment, built-in side cutters (up to 2.5 mm²)"
+        }
+      },
+      {
+        sku: "JK-30900",
+        nameRu: "Съемник изоляции Allrounder JOKARI",
+        nameAz: "Allrounder JOKARI izolyasiya soyucu",
+        nameEn: "Allrounder JOKARI wire stripper",
+        price: "55.00",
+        images: [
+          "https://www.profitools.by/upload/resize_cache/iblock/4d3/500_500_140cd750bba9870f18aada2478b24840a/sqnoub1ytrym8hcao2h1t7gebrya76gj.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/5e7/500_500_140cd750bba9870f18aada2478b24840a/fhmy1f5awmturwtq5ifnorkuf0h3c486.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/d7d/500_500_140cd750bba9870f18aada2478b24840a/0ckyg1kx19249nynh8ba36licq8fvhod.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/97a/500_500_140cd750bba9870f18aada2478b24840a/jd59ogv8lyw5zzeyr00o1jo5hynsvtm0.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/3df/500_500_140cd750bba9870f18aada2478b24840a/wwd344eblel3l7u7qy0knprxuj0ex33k.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/004/500_500_140cd750bba9870f18aada2478b24840a/9g9j2exo6hssucl1x6dg8t48y93wf0w8.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/feb/500_500_140cd750bba9870f18aada2478b24840a/2wt6vkgkxx1ww99a8bcd5qrxw3v1ifhx.png"
+        ],
+        cat: "elektrika-kabel",
+        stock: 14,
+        specsRu: {
+          "Артикул": "30900",
+          "Бренд": "JOKARI",
+          "Страна бренда": "Германия",
+          "Производитель": "JOKARI-Krampe GmbH",
+          "Назначение": "Удаление изоляции с круглых и плоских кабелей",
+          "Диаметр круглого кабеля": "от 4 до 15 мм",
+          "Ширина плоского кабеля": "до 15 мм",
+          "Особенности": "Не требует настройки глубины реза, дополнительные лезвия для зачистки жил 1,5 мм² и 2,5 мм²"
+        },
+        specsAz: {
+          "Artikul": "30900",
+          "Brend": "JOKARI",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "JOKARI-Krampe GmbH",
+          "Təyinatı": "Dairəvi və yastı kabellərdən izolyasiyanın çıxarılması",
+          "Dairəvi kabelin diametri": "4-dən 15 mm-ə qədər",
+          "Yastı kabelin eni": "15 mm-ə qədər",
+          "Xüsusiyyətləri": "Kəsmə dərinliyinin tənzimlənməsini tələb etmir, 1,5 mm² və 2,5 mm²-lik naqillərin təmizlənməsi üçün əlavə bıçaqlar"
+        },
+        specsEn: {
+          "Article": "30900",
+          "Brand": "JOKARI",
+          "Brand country": "Germany",
+          "Manufacturer": "JOKARI-Krampe GmbH",
+          "Purpose": "Stripping insulation from round and flat cables",
+          "Round cable diameter": "from 4 to 15 mm",
+          "Flat cable width": "up to 15 mm",
+          "Features": "Does not require adjustment of cutting depth, additional blades for stripping 1.5 mm² and 2.5 mm² conductors"
+        }
+      },
+      {
+        sku: "JK-10162",
+        nameRu: "Нож для разделки кабеля Standart №16 JOKARI",
+        nameAz: "Standart №16 JOKARI kabel kəsən bıçaq",
+        nameEn: "Standart No. 16 JOKARI cable stripping knife",
+        price: "26.00",
+        images: [
+          "https://www.profitools.by/upload/resize_cache/iblock/a84/500_500_140cd750bba9870f18aada2478b24840a/v8zi0mmd1lv69jud21ioyh3pcthpjm92.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/ba1/500_500_140cd750bba9870f18aada2478b24840a/gfc6ujcelrqx2do27ars3dvl6q5hcjwa.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/2dd/500_500_140cd750bba9870f18aada2478b24840a/u1gojh9da963alsnephrw89zn58ube15.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/c4a/500_500_140cd750bba9870f18aada2478b24840a/x0n0dkhautvy5tvo198l6hmgufahdx7p.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/e94/500_500_140cd750bba9870f18aada2478b24840a/rdk0fag0g2ypc2ilbbj2j1yiv3tfzaie.png"
+        ],
+        cat: "elektrika-kabel",
+        stock: 16,
+        specsRu: {
+          "Артикул": "10162",
+          "Бренд": "JOKARI",
+          "Страна бренда": "Германия",
+          "Производитель": "JOKARI-Krampe GmbH",
+          "Назначение": "Удаление оболочки с круглого кабеля",
+          "Диаметр кабеля": "от 4 до 16 мм",
+          "Особенности": "Регулировка глубины реза винтом, лезвие с покрытием TiN, запасное лезвие в комплекте"
+        },
+        specsAz: {
+          "Artikul": "10162",
+          "Brend": "JOKARI",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "JOKARI-Krampe GmbH",
+          "Təyinatı": "Dairəvi kabeldən qabığın çıxarılması",
+          "Kabelin diametri": "4-dən 16 mm-ə qədər",
+          "Xüsusiyyətləri": "Kəsmə dərinliyinin vintlə tənzimlənməsi, TiN örtüklü bıçaq, dəstdə ehtiyat bıçaq"
+        },
+        specsEn: {
+          "Article": "10162",
+          "Brand": "JOKARI",
+          "Brand country": "Germany",
+          "Manufacturer": "JOKARI-Krampe GmbH",
+          "Purpose": "Removing sheath from round cable",
+          "Cable diameter": "from 4 to 16 mm",
+          "Features": "Screw-adjustable cutting depth, TiN coated blade, spare blade included"
+        }
+      },
+      {
+        sku: "JK-30140",
+        nameRu: "Съемник изоляции Strip №14 JOKARI",
+        nameAz: "Strip №14 JOKARI izolyasiya soyucu",
+        nameEn: "Strip No. 14 JOKARI wire stripper",
+        price: "63.00",
+        images: [
+          "https://www.profitools.by/upload/resize_cache/iblock/243/500_500_140cd750bba9870f18aada2478b24840a/jn5f5jawki8sqlbcp4wext23qzxarjuc.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/0dc/500_500_140cd750bba9870f18aada2478b24840a/i2qhv17js9vwpdpcqp23n1l7wjka1ec8.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/469/500_500_140cd750bba9870f18aada2478b24840a/bchkxhd6m52hpfolgaysayfyda7upg0a.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/e30/500_500_140cd750bba9870f18aada2478b24840a/ak65s6wg1o2r4mpkhjp118bo7tb1iqxk.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/cdf/500_500_140cd750bba9870f18aada2478b24840a/g9yl3akgrv5mh4p3gfyo32w6z6ht8wnj.png"
+        ],
+        cat: "elektrika-kabel",
+        stock: 9,
+        specsRu: {
+          "Артикул": "30140",
+          "Бренд": "JOKARI",
+          "Страна бренда": "Германия",
+          "Производитель": "JOKARI-Krampe GmbH",
+          "Назначение": "Удаление изоляции с круглых и плоских кабелей",
+          "Диаметр круглого кабеля": "от 4 до 13 мм",
+          "Ширина плоского кабеля": "до 12 мм",
+          "Особенности": "Не требует настройки глубины реза, дополнительные лезвия для зачистки жил 0,8 мм², 1,5 мм² и 2,5 мм²"
+        },
+        specsAz: {
+          "Artikul": "30140",
+          "Brend": "JOKARI",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "JOKARI-Krampe GmbH",
+          "Təyinatı": "Dairəvi və yastı kabellərdən izolyasiyanın çıxarılması",
+          "Dairəvi kabelin diametri": "4-dən 13 mm-ə qədər",
+          "Yastı kabelin eni": "12 mm-ə qədər",
+          "Xüsusiyyətləri": "Kəsmə dərinliyinin tənzimlənməsini tələb etmir, 0,8 mm², 1,5 mm² və 2,5 mm²-lik naqillərin təmizlənməsi üçün əlavə bıçaqlar"
+        },
+        specsEn: {
+          "Article": "30140",
+          "Brand": "JOKARI",
+          "Brand country": "Germany",
+          "Manufacturer": "JOKARI-Krampe GmbH",
+          "Purpose": "Stripping insulation from round and flat cables",
+          "Round cable diameter": "from 4 to 13 mm",
+          "Flat cable width": "up to 12 mm",
+          "Features": "Does not require adjustment of cutting depth, additional blades for stripping 0.8 mm², 1.5 mm² and 2.5 mm² conductors"
+        }
+      },
+      {
+        sku: "JK-20030",
+        nameRu: "Автоматические клещи для снятия изоляции c плоского кабеля FKZ JOKARI",
+        nameAz: "FKZ JOKARI yastı kabel üçün avtomatik izolyasiya soyucu kəlbətin",
+        nameEn: "FKZ JOKARI flat cable automatic wire stripping pliers",
+        price: "360.00",
+        images: [
+          "https://www.profitools.by/upload/resize_cache/iblock/e96/500_500_140cd750bba9870f18aada2478b24840a/n552hqeafjxe25hn20bxinijptj5v69c.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/4e5/500_500_140cd750bba9870f18aada2478b24840a/z1h7n0bh8nnglefflost5fzrvaks78oc.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/632/500_500_140cd750bba9870f18aada2478b24840a/g238bcuv5qaivxz99v9plan55hbtaet4.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/902/500_500_140cd750bba9870f18aada2478b24840a/eyeb8s201s24n6o81ayew9qx1dyfwprf.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/4d8/500_500_140cd750bba9870f18aada2478b24840a/irpfywo9pye8i7w4482mvsnq3fa91smr.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/710/500_500_140cd750bba9870f18aada2478b24840a/3moxbld7b8fzjt49rjut5q5bymz1oyyu.png"
+        ],
+        cat: "elektrika-kabel",
+        stock: 5,
+        specsRu: {
+          "Артикул": "20030",
+          "Бренд": "JOKARI",
+          "Страна бренда": "Германия",
+          "Производитель": "JOKARI-Krampe GmbH",
+          "Назначение": "Удаление изоляции с плоских кабелей",
+          "Ширина кабеля": "до 12 мм",
+          "Сечение жилы": "от 0,75 до 2,5 мм²",
+          "Особенности": "Автоматическая настройка, удаляет наружную и внутреннюю изоляцию, разметка продольной подачи 15–18–20 мм"
+        },
+        specsAz: {
+          "Artikul": "20030",
+          "Brend": "JOKARI",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "JOKARI-Krampe GmbH",
+          "Təyinatı": "Yastı kabellərdən izolyasiyanın çıxarılması",
+          "Kabelin eni": "12 mm-ə qədər",
+          "Damar kəsiyi": "0,75-dən 2,5 mm²-ə qədər",
+          "Xüsusiyyətləri": "Avtomatik tənzimləmə, xarici və daxili izolyasiyanı təmizləyir, 15–18–20 mm uzunluq məsafəsi nişanları"
+        },
+        specsEn: {
+          "Article": "20030",
+          "Brand": "JOKARI",
+          "Brand country": "Germany",
+          "Manufacturer": "JOKARI-Krampe GmbH",
+          "Purpose": "Stripping insulation from flat cables",
+          "Cable width": "up to 12 mm",
+          "Conductor cross-section": "from 0.75 to 2.5 mm²",
+          "Features": "Automatic adjustment, strips outer and inner insulation, longitudinal feed markings 15-18-20 mm"
+        }
+      },
+      {
+        sku: "JK-20100",
+        nameRu: "Автоматические клещи для снятия изоляции Secura 2K JOKARI",
+        nameAz: "Secura 2K JOKARI avtomatik izolyasiya soyucu kəlbətin",
+        nameEn: "Secura 2K JOKARI automatic wire stripping pliers",
+        price: "185.00",
+        images: [
+          "https://www.profitools.by/upload/resize_cache/iblock/2b9/500_500_140cd750bba9870f18aada2478b24840a/jycosxgbwsq8l4e77pmgn0xllpy02b04.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/44e/500_500_140cd750bba9870f18aada2478b24840a/fwl0tvuey62zqqzmzwxwn8zdyj9q0hq2.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/da1/500_500_140cd750bba9870f18aada2478b24840a/rdaarh47bkstbwj2441iywdpeluker92.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/2a7/500_500_140cd750bba9870f18aada2478b24840a/v7wx3mvgbycjbxknklkhsjo4u1o8m8mg.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/d61/500_500_140cd750bba9870f18aada2478b24840a/ar66yxf63m2yypa9v8xcj2xnzx9pwcxp.png",
+          "https://www.profitools.by/upload/resize_cache/iblock/c1e/500_500_140cd750bba9870f18aada2478b24840a/dhief3rcjsjqnslm4wneehs7tmm0jlrv.png"
+        ],
+        cat: "elektrika-kabel",
+        stock: 6,
+        pop: true,
+        specsRu: {
+          "Артикул": "20100",
+          "Бренд": "JOKARI",
+          "Страна бренда": "Германия",
+          "Производитель": "JOKARI-Krampe GmbH",
+          "Назначение": "Удаление изоляции с одножильных проводников",
+          "Сечение проводников": "от 0,2 до 6 мм² (AWG 24 - 10)",
+          "Вес": "155 г",
+          "Особенности": "Автоматическая настройка, встроенные бокорезы до 2,5 мм², регулируемый упор длины снятия изоляции (6–18 мм), двухкомпонентная рукоятка"
+        },
+        specsAz: {
+          "Artikul": "20100",
+          "Brend": "JOKARI",
+          "Brend ölkəsi": "Almaniya",
+          "İstehsalçı": "JOKARI-Krampe GmbH",
+          "Təyinatı": "Birqütblü naqillərdən izolyasiyanın çıxarılması",
+          "Naqil kəsiyi": "0,2-dən 6 mm²-ə qədər (AWG 24 - 10)",
+          "Çəki": "155 q",
+          "Xüsusiyyətləri": "Avtomatik tənzimləmə, 2,5 mm²-ə qədər daxili yan kəsicilər, tənzimlənən izolyasiya soyulma uzunluğu (6-18 mm), iki komponentli dəstək"
+        },
+        specsEn: {
+          "Article": "20100",
+          "Brand": "JOKARI",
+          "Brand country": "Germany",
+          "Manufacturer": "JOKARI-Krampe GmbH",
+          "Purpose": "Stripping insulation from single-core conductors",
+          "Wire cross-section": "from 0.2 to 6 mm² (AWG 24 - 10)",
+          "Weight": "155 g",
+          "Features": "Automatic adjustment, built-in wire cutters up to 2.5 mm², adjustable stripping length stop (6-18 mm), two-component handle"
+        }
+      }
     ];
 
     const STABILA_PRODUCTS = [
@@ -149,19 +707,19 @@ async function seed() {
         nameAz: p.nameAz,
         nameRu: p.nameRu,
         nameEn: p.nameEn,
-        descriptionAz: `${p.nameAz} - professional keyfiyyət, original ${brandSlug.toUpperCase()} brend. ProfiTools Azerbaijan rəsmi zəmanət.`,
-        descriptionRu: `${p.nameRu} — профессиональное качество, оригинальный бренд ${brandSlug.toUpperCase()}. Официальная гарантия ProfiTools Azerbaijan.`,
-        descriptionEn: `${p.nameEn} — professional quality, original ${brandSlug.toUpperCase()} brand. Official warranty from ProfiTools Azerbaijan.`,
-        specsAz: p.specs || {},
-        specsRu: p.specs || {},
-        specsEn: p.specs || {},
+        descriptionAz: `${p.nameAz} - professional keyfiyyət, original ${brandSlug.toUpperCase()} brend. ZendorTools Azerbaijan rəsmi zəmanət.`,
+        descriptionRu: `${p.nameRu} — профессиональное качество, оригинальный бренд ${brandSlug.toUpperCase()}. Официальная гарантия ZendorTools Azerbaijan.`,
+        descriptionEn: `${p.nameEn} — professional quality, original ${brandSlug.toUpperCase()} brand. Official warranty from ZendorTools Azerbaijan.`,
+        specsAz: p.specsAz || p.specs || {},
+        specsRu: p.specsRu || p.specs || {},
+        specsEn: p.specsEn || p.specs || {},
         price: p.price,
         oldPrice: p.oldPrice,
         stock: p.stock,
         isAvailable: "yes",
         rating: "4.5",
         reviewCount: 0,
-        images: productImages(sl, p.sku),
+        images: p.images || productImages(sl, p.sku),
         categoryId: catMap.get(p.cat)!,
         brandId: brandMap.get(brandSlug)!,
         isPopular: p.pop ? "yes" : "no",

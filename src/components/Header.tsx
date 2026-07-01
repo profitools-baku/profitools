@@ -281,9 +281,11 @@ export function Header() {
             </AnimatePresence>
           </Link>
           
+          {/* 
           <Link to={isAuthenticated ? "/profile" : "/login"} className="p-2 text-slate-300 hover:text-white transition-colors group">
             <motion.div whileHover={{ y: -2 }}><User className="w-5 h-5" /></motion.div>
           </Link>
+          */}
           
           {isAuthenticated && (
             <motion.button

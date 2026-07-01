@@ -116,13 +116,13 @@ export default function Maintenance() {
             </a>
             
             <a 
-              href="mailto:info@profitools.az" 
+              href="mailto:info@zendortools.az" 
               className="flex items-center gap-3 text-slate-300 hover:text-orange-500 transition-colors group"
             >
               <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-orange-500/10 transition-colors">
                 <Mail className="w-4 h-4 text-orange-500" />
               </div>
-              <span className="font-semibold text-sm">info@profitools.az</span>
+              <span className="font-semibold text-sm">info@zendortools.az</span>
             </a>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function Maintenance() {
       {/* Footer */}
       <footer className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-600 border-t border-slate-900 pt-8 z-10">
         <div>
-          © {new Date().getFullYear()} ProfiTools Azerbaijan. All rights reserved.
+          © {new Date().getFullYear()} ZendorTools Azerbaijan. All rights reserved.
         </div>
         <div>
           <a href="/admin/login" className="hover:text-orange-500 transition-colors font-medium">

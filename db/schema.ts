@@ -78,6 +78,7 @@ export const products = pgTable("products", {
   oldPrice: text("old_price"),
   stock: integer("stock").default(0).notNull(),
   isAvailable: text("is_available").default("yes").notNull(), // "yes", "no"
+  isHidden: text("is_hidden").default("no").notNull(), // "yes", "no"
   rating: text("rating").default("4.5").notNull(),
   reviewCount: integer("review_count").default(0).notNull(),
   images: jsonb("images").$type<string[]>(),
@@ -179,4 +180,15 @@ export const orderItems = pgTable("order_items", {
 });
 
 export type OrderItem = typeof orderItems.$inferSelect;
+
+// ── Settings ─────────────────────────────────────────────────
+export const settings = pgTable("settings", {
+  id: serial("id").primaryKey(),
+  key: text("key").notNull().unique(),
+  value: text("value").notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+export type Setting = typeof settings.$inferSelect;
+
 

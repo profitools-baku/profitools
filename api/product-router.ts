@@ -18,6 +18,7 @@ export const productRouter = createRouter({
         page: z.number().default(1),
         limit: z.number().default(24),
         sort: z.enum(["price_asc", "price_desc", "newest", "popular", "rating"]).optional(),
+        showHidden: z.boolean().optional(),
       }).optional()
     )
     .query(async ({ input }) => {
@@ -41,8 +42,10 @@ export const productRouter = createRouter({
         );
       }
 
-      conditions.push(ne(products.brandId, 6));
-      conditions.push(ne(products.brandId, 7));
+      const showHidden = input?.showHidden ?? false;
+      if (!showHidden) {
+        conditions.push(eq(products.isHidden, "no"));
+      }
 
       const where = conditions.length > 0 ? and(...conditions) : undefined;
 
@@ -77,6 +80,7 @@ export const productRouter = createRouter({
           reviewCount: products.reviewCount,
           isPopular: products.isPopular,
           isNew: products.isNew,
+          isHidden: products.isHidden,
           categoryId: products.categoryId,
           categoryNameAz: categories.nameAz,
           categoryNameRu: categories.nameRu,
@@ -120,7 +124,7 @@ export const productRouter = createRouter({
         if (result.length === 0) return null;
 
         const product = result[0];
-        if (product.brandId === 6 || product.brandId === 7) return null;
+        if (product.isHidden === "yes") return null;
 
         // Increment view count
         await db
@@ -208,8 +212,7 @@ export const productRouter = createRouter({
           and(
             eq(products.categoryId, product[0].categoryId),
             ne(products.id, input.productId),
-            ne(products.brandId, 6),
-            ne(products.brandId, 7)
+            eq(products.isHidden, "no")
           )
         )
         .limit(input.limit);
@@ -236,8 +239,7 @@ export const productRouter = createRouter({
         .from(products)
         .where(
           and(
-            ne(products.brandId, 6),
-            ne(products.brandId, 7),
+            eq(products.isHidden, "no"),
             or(
               ilike(products.nameRu, searchPattern),
               ilike(products.nameAz, searchPattern),
@@ -268,6 +270,7 @@ export const productRouter = createRouter({
       images: z.array(z.string()).optional(),
       isPopular: z.enum(["yes", "no"]).default("no"),
       isNew: z.enum(["yes", "no"]).default("no"),
+      isHidden: z.enum(["yes", "no"]).default("no"),
     }))
     .mutation(async ({ input }) => {
       const db = getDb();
@@ -314,6 +317,7 @@ export const productRouter = createRouter({
       images: z.array(z.string()).optional(),
       isPopular: z.enum(["yes", "no"]).optional(),
       isNew: z.enum(["yes", "no"]).optional(),
+      isHidden: z.enum(["yes", "no"]).optional(),
     }))
     .mutation(async ({ input }) => {
       const db = getDb();
@@ -322,6 +326,16 @@ export const productRouter = createRouter({
         ...data,
         updatedAt: new Date(),
       }).where(eq(products.id, id));
+    }),
+
+  toggleVisibility: adminQuery
+    .input(z.object({ id: z.number(), isHidden: z.enum(["yes", "no"]) }))
+    .mutation(async ({ input }) => {
+      const db = getDb();
+      return db.update(products).set({
+        isHidden: input.isHidden,
+        updatedAt: new Date(),
+      }).where(eq(products.id, input.id));
     }),
 
   delete: adminQuery

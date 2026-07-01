@@ -10,10 +10,13 @@ import {
   Package,
   ExternalLink,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Eye,
+  EyeOff
 } from "lucide-react";
 import { Link } from "react-router";
 import { toast } from "sonner";
+
 
 import { useTranslation } from "@/hooks/useTranslations";
 
@@ -25,7 +28,8 @@ export default function AdminProducts() {
   const { data, isLoading, refetch } = trpc.product.list.useQuery({ 
     page, 
     limit: 10,
-    search: search || undefined
+    search: search || undefined,
+    showHidden: true
   });
 
   const [deleteId, setDeleteId] = useState<number | null>(null);
@@ -40,6 +44,21 @@ export default function AdminProducts() {
       toast.error(err.message);
     }
   });
+
+  const toggleMutation = trpc.product.toggleVisibility.useMutation({
+    onSuccess: () => {
+      toast.success("Visibility updated successfully");
+      refetch();
+    },
+    onError: (err) => {
+      toast.error(err.message);
+    }
+  });
+
+  const handleToggleVisibility = (id: number, currentHidden: string) => {
+    const nextHidden = currentHidden === "yes" ? "no" : "yes";
+    toggleMutation.mutate({ id, isHidden: nextHidden });
+  };
 
   return (
     <AdminLayout>
@@ -78,6 +97,7 @@ export default function AdminProducts() {
               <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">{t("price")}</th>
               <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">{t("stock")}</th>
               <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">{t("availability")}</th>
+              <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">Visibility</th>
               <th className="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider text-right">{t("actions")}</th>
             </tr>
           </thead>
@@ -88,7 +108,7 @@ export default function AdminProducts() {
                   <td className="px-6 py-4"><div className="h-4 bg-slate-100 rounded w-32" /></td>
                   <td className="px-6 py-4"><div className="h-4 bg-slate-100 rounded w-20" /></td>
                   <td className="px-6 py-4"><div className="h-4 bg-slate-100 rounded w-16" /></td>
-                  <td className="px-6 py-4"><div className="h-4 bg-slate-100 rounded w-12" /></td>
+                  <td className="px-6 py-4"><div className="h-4 bg-slate-100 rounded w-16" /></td>
                   <td className="px-6 py-4"><div className="h-4 bg-slate-100 rounded w-16" /></td>
                   <td className="px-6 py-4"><div className="h-4 bg-slate-100 rounded w-8 ml-auto" /></td>
                 </tr>
@@ -122,6 +142,29 @@ export default function AdminProducts() {
                     }`}>
                       {product.stock > 0 ? t('inStock') : t('outOfStock')}
                     </span>
+                  </td>
+                  <td className="px-6 py-4">
+                    <button
+                      onClick={() => handleToggleVisibility(product.id, product.isHidden || 'no')}
+                      disabled={toggleMutation.isPending}
+                      className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+                        product.isHidden === 'yes'
+                          ? 'bg-rose-50 border-rose-200 text-rose-600 hover:bg-rose-100'
+                          : 'bg-emerald-50 border-emerald-200 text-emerald-600 hover:bg-emerald-100'
+                      }`}
+                    >
+                      {product.isHidden === 'yes' ? (
+                        <>
+                          <EyeOff className="w-3.5 h-3.5" />
+                          Hidden
+                        </>
+                      ) : (
+                        <>
+                          <Eye className="w-3.5 h-3.5" />
+                          Visible
+                        </>
+                      )}
+                    </button>
                   </td>
                   <td className="px-6 py-4 text-right">
                     <div className="flex items-center justify-end gap-2">

@@ -1,0 +1,4 @@
+# Замените yourdomain.com на ваш реальный домен, который уже направлен на IP сервера
+yourdomain.com {
+    reverse_proxy app:3000
+}
